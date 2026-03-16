@@ -13,9 +13,11 @@ OK Guess I can remove the secre element if need pins.
    Check that header pins can use I2S.
    Maybe can repurpose IO1?
    Battery connector too big, smaller version I believe is JST 1.25mm pin distance, change footprint.
-   Consider Inner2 as power 3V3 plane, removes need for 3V3 traces around top layer. As of ESP32 deisgn guidelines.
+OK Consider Inner2 as power 3V3 plane, removes need for 3V3 traces around top layer. As of ESP32 deisgn guidelines.
 OK Smaller headers to thin out the whole design. Hence redesign case accrodingly.
    Check design guidelines for matching circuit of RF antenna. More space due to power trace being removed allows proper guidelines to be followed. What's a Stub? -> Unnecessary if we use 0402 or bigger passive components for the inductance matching circuit.
    More ground Vias under ESP32.
 OK Consider a GPIO expander such as an MCP23S17.
    Test ST pin on power MUX on RevA.
+   Remove pull-up on MISOA.
+   Add microphone and micro SD slot.
