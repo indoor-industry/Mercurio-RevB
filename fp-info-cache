@@ -1,4 +1,4 @@
-27510090081588946
+27527837512054370
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71805,6 +71805,69 @@ Yellow 5381 Series LED
 0
 2
 2
+LoRa_library
+AUDIO-TH_320B
+AUDIO-TH_320B footprint
+AUDIO-TH_320B footprint C18166
+0
+3
+3
+LoRa_library
+COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P
+COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P footprint
+COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P footprint C42420049
+0
+17
+17
+LoRa_library
+GPSM-SMD_18P-L10.1-W9.7-P1.10
+GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint
+GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint C2916234
+0
+18
+18
+LoRa_library
+KEY-TH_K2-1102AQ-KXXW-XX
+KEY-TH_K2-1102AQ-KXXW-XX footprint
+KEY-TH_K2-1102AQ-KXXW-XX footprint C136734
+0
+4
+4
+LoRa_library
+SMA-SMD_BWSMA-KE-P001
+SMA-SMD_BWSMA-KE-P001 footprint
+SMA-SMD_BWSMA-KE-P001 footprint C2693809
+0
+5
+5
+LoRa_library
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C136154
+0
+5
+5
+LoRa_library
+TF-SMD_TF-01A
+TF-SMD_TF-01A footprint
+TF-SMD_TF-01A footprint C91145
+0
+13
+13
+LoRa_library
+TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5
+TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5 footprint
+TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5 footprint C910544
+0
+17
+17
+LoRa_library
+USB-C-SMD_HANBO_MC-121-L119
+USB-C-SMD_HANBO_MC-121-L119 footprint
+USB-C-SMD_HANBO_MC-121-L119 footprint C6332278
+0
+16
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -108744,6 +108807,13 @@ Varistor VF
 0
 2
 2
+my_footprints
+AUDIO-TH_320B
+AUDIO-TH_320B footprint
+AUDIO-TH_320B footprint C18166
+0
+3
+3
 my_footprints
 GPSM-SMD_18P-L10.1-W9.7-P1.10
 GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint

@@ -1,0 +1,122 @@
+(footprint "SMA-SMD_BWSMA-KE-P001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMA-SMD_BWSMA-KE-P001 footprint")
+	(tags "SMA-SMD_BWSMA-KE-P001 footprint C2693809")
+	(property "Reference" "SMA"
+		(at 6.050064 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "c513aa7b-e1f6-4a04-8f2d-297d00d2c62a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA-SMD_BWSMA-KE-P001"
+		(at 6.050064 5.3 0)
+		(layer "F.Fab")
+		(uuid "1bcc26d1-b9d2-4ff3-8c89-bae0562c4147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "343964c3-b979-446f-9ae6-e2c27e1077d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "691d5c5b-6f38-406c-998b-566a92ce1826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 5.030048 -2.810008) (xy 5.030048 -2.570003) (xy 11.980061 -2.570003) (xy 11.980061 2.550013)
+			(xy 5.030048 2.550013) (xy 5.030048 2.789992) (xy 12.100051 2.789992) (xy 12.220041 2.670003) (xy 12.220041 -2.720015)
+			(xy 12.130048 -2.810008)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ea3fe18c-97a2-4a1f-b9c0-97c740340025")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.050064 0 0)
+		(layer "F.Fab")
+		(uuid "96a320da-6874-473d-a2b4-49fead2544f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.000102 2.549784)
+		(size 4.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32360ac0-f797-40e7-9ed5-44d072be8a81")
+	)
+	(pad "2" smd rect
+		(at 0.000102 -2.550038)
+		(size 4.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a561a032-8f2f-434b-beb1-bd7904ad7b4d")
+	)
+	(pad "3" smd rect
+		(at 0.000102 -2.550038)
+		(size 4.8 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "873892b0-e17a-4abc-8127-a2ece3ddcc1a")
+	)
+	(pad "4" smd rect
+		(at 0.000102 2.550038)
+		(size 4.8 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "139ba1f3-ca2f-4401-9ab7-cdff5491afff")
+	)
+	(pad "5" smd rect
+		(at 0.000102 -0.000127)
+		(size 4.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4990ce38-88ce-4bdd-bdd4-670621835f44")
+	)
+	(embedded_fonts no)
+	(model "packages3d/SMA-SMD_BWSMA-KE-P001.step"
+		(offset
+			(xyz -0.599947991 0 0.4500117932)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 -180)
+		)
+	)
+)
