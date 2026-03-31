@@ -1,4 +1,4 @@
-27527837512054370
+27527837860098781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71848,19 +71848,19 @@ SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C136154
 5
 5
 LoRa_library
+SW-TH_SK-12D02-VG5
+SW-TH_SK-12D02-VG5 footprint
+SW-TH_SK-12D02-VG5 footprint C136722
+0
+5
+5
+LoRa_library
 TF-SMD_TF-01A
 TF-SMD_TF-01A footprint
 TF-SMD_TF-01A footprint C91145
 0
 13
 13
-LoRa_library
-TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5
-TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5 footprint
-TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5 footprint C910544
-0
-17
-17
 LoRa_library
 USB-C-SMD_HANBO_MC-121-L119
 USB-C-SMD_HANBO_MC-121-L119 footprint

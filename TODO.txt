@@ -1,10 +1,10 @@
 OK BUT CHECK  PS1 on power mux needs voltage divider, not short to 5V.
-   Also fix the trace cutting trough it making it not fixable from the pin below.
+OK Also fix the trace cutting trough it making it not fixable from the pin below.
    Consider removing solder mask from antenna traces.
-   antenna footprint is wrong, too large.
+OK antenna footprint is wrong, too large.
 OK Can USB poke out more?
 OK BUT TEST   Check PSRAM.
-   Larger hole for SMA (or SMA might be mobile so not needed).
+OK Larger hole for SMA (or SMA might be mobile so not needed).
 OK USB hole more chamfer/fillet.
 OK Bottom left square where pcb sits touches pins from screen header.
 OK I have used an ESP32-S3R8, in the Kicad project, two LCSC numbers are given, leave only the one which corresponds to the R8.
@@ -22,6 +22,6 @@ OK Consider a GPIO expander such as an MCP23S17.
    Pull-up on MISOA is problematic for anything other than SD card?
 OK Add micro SD slot.
    Solar power support.
-   Swap Ra01H with Ra01SH.
+OK Swap Ra01H with Ra01SH.
    External pullup/downs on strapping pins?
-   Add buttons and modify case accordingly.
+OK Add buttons and modify case accordingly.
