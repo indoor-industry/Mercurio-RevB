@@ -17188,16 +17188,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 166.37) (xy 238.76 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e97af7-9688-482f-9abb-921d82537c70")
-	)
-	(wire
-		(pts
 			(xy 71.12 237.49) (xy 54.61 237.49)
 		)
 		(stroke
@@ -17396,16 +17386,6 @@
 		)
 		(uuid "3deb7d30-e91e-4488-ad10-5db4ebe5c7cb")
 	)
-	(wire
-		(pts
-			(xy 233.68 161.29) (xy 252.73 161.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3e3830b1-8db6-4e58-8bf9-f35ce04243b6")
-	)
 	(polyline
 		(pts
 			(xy 129.54 53.34) (xy 129.54 217.17)
@@ -17528,7 +17508,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 166.37) (xy 252.73 166.37)
+			(xy 245.11 161.29) (xy 248.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17905,6 +17885,16 @@
 			(type solid)
 		)
 		(uuid "5505dffe-eabf-4f84-bb6a-d1e26d07bace")
+	)
+	(wire
+		(pts
+			(xy 233.68 166.37) (xy 252.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558772d2-1200-4d96-bb5a-34755e024c36")
 	)
 	(wire
 		(pts
@@ -18378,6 +18368,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 161.29) (xy 237.49 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c527dde-b478-499a-8eda-31f0d0565bbc")
+	)
+	(wire
+		(pts
 			(xy 250.19 187.96) (xy 264.16 187.96)
 		)
 		(stroke
@@ -18758,6 +18758,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 163.83) (xy 252.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cfb212-ac26-42d7-9314-9b245e0ab61e")
+	)
+	(wire
+		(pts
 			(xy 232.41 43.18) (xy 232.41 39.37)
 		)
 		(stroke
@@ -18795,16 +18805,6 @@
 			(type solid)
 		)
 		(uuid "83f91833-5cbf-4254-8061-363c54c803c3")
-	)
-	(wire
-		(pts
-			(xy 233.68 156.21) (xy 243.84 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "845dcadb-2de9-4784-bc0a-0007673f50e5")
 	)
 	(wire
 		(pts
@@ -19465,6 +19465,16 @@
 			(type solid)
 		)
 		(uuid "a6e98fc0-4759-457f-ae38-c8814df2dfa5")
+	)
+	(wire
+		(pts
+			(xy 233.68 156.21) (xy 237.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a769b535-5ff1-4e19-8162-afaa2d3f2f04")
 	)
 	(wire
 		(pts
@@ -21138,7 +21148,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 163.83) (xy 252.73 163.83)
+			(xy 245.11 156.21) (xy 248.92 156.21)
 		)
 		(stroke
 			(width 0)
@@ -21225,16 +21235,6 @@
 			(type solid)
 		)
 		(uuid "f85d72e7-ee57-4c46-b5f4-6fdf744ad15c")
-	)
-	(wire
-		(pts
-			(xy 238.76 163.83) (xy 233.68 163.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f8c912f3-4bbe-430a-b75a-562d7b43ea7c")
 	)
 	(wire
 		(pts
@@ -22150,7 +22150,7 @@
 			)
 		)
 	)
-	(global_label "U0TXD{slash}IO43{slash}I2C_SCK"
+	(global_label "MTDO{slash}IO40{slash}I2C_SCK"
 		(shape input)
 		(at 397.51 102.87 180)
 		(fields_autoplaced yes)
@@ -22162,7 +22162,7 @@
 		)
 		(uuid "476eb07c-1fa7-4c17-b2b2-c03d92de91e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.721 102.87 0)
+			(at 374.6886 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22260,7 +22260,7 @@
 			)
 		)
 	)
-	(global_label "U0TXD{slash}IO43{slash}I2C_SCK"
+	(global_label "MTDO{slash}IO40{slash}I2C_SCK"
 		(shape input)
 		(at 229.87 39.37 180)
 		(fields_autoplaced yes)
@@ -22272,7 +22272,7 @@
 		)
 		(uuid "4ce25783-741b-4fac-8938-38991b7c36da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.081 39.37 0)
+			(at 207.0486 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22326,7 +22326,7 @@
 			)
 		)
 	)
-	(global_label "U0RXD{slash}IO44{slash}I2C_SDA"
+	(global_label "MTMS{slash}IO42{slash}I2C_SDA"
 		(shape input)
 		(at 229.87 36.83 180)
 		(fields_autoplaced yes)
@@ -22338,7 +22338,7 @@
 		)
 		(uuid "5727a230-7e55-4daf-94a7-2a57c95602aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.96 36.83 0)
+			(at 207.1696 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22568,9 +22568,9 @@
 			)
 		)
 	)
-	(global_label "U0TXD{slash}IO43{slash}I2C_SCK"
+	(global_label "MTDO{slash}IO40{slash}I2C_SCK"
 		(shape input)
-		(at 252.73 163.83 0)
+		(at 248.92 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22580,7 +22580,7 @@
 		)
 		(uuid "6bfb4e98-87e6-4c25-a5f5-81255ea265af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.519 163.83 0)
+			(at 271.7414 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23252,7 +23252,7 @@
 	)
 	(global_label "GPS_RXD"
 		(shape input)
-		(at 243.84 156.21 0)
+		(at 252.73 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23262,7 +23262,7 @@
 		)
 		(uuid "a9e7f02f-17a8-419a-b8af-287c6c096d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.1795 156.21 0)
+			(at 260.0695 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23536,7 +23536,7 @@
 			)
 		)
 	)
-	(global_label "U0RXD{slash}IO44{slash}I2C_SDA"
+	(global_label "MTMS{slash}IO42{slash}I2C_SDA"
 		(shape input)
 		(at 397.51 100.33 180)
 		(fields_autoplaced yes)
@@ -23548,7 +23548,7 @@
 		)
 		(uuid "c100fee0-9944-4069-8450-a65f781e1f11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.6 100.33 0)
+			(at 374.8096 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23978,7 +23978,7 @@
 	)
 	(global_label "GPS_TXD"
 		(shape input)
-		(at 252.73 161.29 0)
+		(at 252.73 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23988,7 +23988,7 @@
 		)
 		(uuid "e5a71f95-14b4-46c1-a9fc-143d331bba59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.0695 161.29 0)
+			(at 260.0695 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24284,9 +24284,9 @@
 			)
 		)
 	)
-	(global_label "U0RXD{slash}IO44{slash}I2C_SDA"
+	(global_label "MTMS{slash}IO42{slash}I2C_SDA"
 		(shape input)
-		(at 252.73 166.37 0)
+		(at 248.92 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24296,7 +24296,7 @@
 		)
 		(uuid "ffe51f37-0273-4f83-9dc3-823140d8021b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.64 166.37 0)
+			(at 271.6204 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27443,7 +27443,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,330Ω")
-		(at 242.57 166.37 90)
+		(at 241.3 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27452,7 +27452,7 @@
 		(fields_autoplaced yes)
 		(uuid "1927de0a-992e-4c80-82ea-f98540362c40")
 		(property "Reference" "R24"
-			(at 242.57 162.56 90)
+			(at 241.3 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27460,7 +27460,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 242.57 166.37 90)
+			(at 241.3 161.29 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27469,7 +27469,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 242.57 168.148 90)
+			(at 241.3 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27478,7 +27478,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27487,7 +27487,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 330Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27496,7 +27496,7 @@
 			)
 		)
 		(property "LCSC" "C25104"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27505,7 +27505,7 @@
 			)
 		)
 		(property "Stock" "1159127"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27514,7 +27514,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27523,7 +27523,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27532,7 +27532,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27541,7 +27541,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27550,7 +27550,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27559,7 +27559,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27568,7 +27568,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27577,7 +27577,7 @@
 			)
 		)
 		(property "Part" "0402WGF3300TCE"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27586,7 +27586,7 @@
 			)
 		)
 		(property "Resistance" "330Ω"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27595,7 +27595,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27604,7 +27604,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27613,7 +27613,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27622,7 +27622,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27631,7 +27631,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27640,7 +27640,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 242.57 166.37 0)
+			(at 241.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49035,7 +49035,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,330Ω")
-		(at 242.57 163.83 90)
+		(at 241.3 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49044,7 +49044,7 @@
 		(fields_autoplaced yes)
 		(uuid "df768451-9d70-423d-9eff-65c16d6752bb")
 		(property "Reference" "R42"
-			(at 242.57 160.02 90)
+			(at 241.3 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49052,7 +49052,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 242.57 163.83 90)
+			(at 241.3 156.21 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -49061,7 +49061,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 242.57 165.608 90)
+			(at 241.3 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49070,7 +49070,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49079,7 +49079,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 330Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49088,7 +49088,7 @@
 			)
 		)
 		(property "LCSC" "C25104"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49097,7 +49097,7 @@
 			)
 		)
 		(property "Stock" "1159127"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49106,7 +49106,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49115,7 +49115,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49124,7 +49124,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49133,7 +49133,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49142,7 +49142,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49151,7 +49151,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49160,7 +49160,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49169,7 +49169,7 @@
 			)
 		)
 		(property "Part" "0402WGF3300TCE"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49178,7 +49178,7 @@
 			)
 		)
 		(property "Resistance" "330Ω"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49187,7 +49187,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49196,7 +49196,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49205,7 +49205,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49214,7 +49214,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49223,7 +49223,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49232,7 +49232,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 242.57 163.83 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
