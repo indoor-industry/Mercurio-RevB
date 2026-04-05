@@ -1,4 +1,4 @@
-27527837860098781
+27529614214032641
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71820,19 +71820,19 @@ COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P footprint C42420049
 17
 17
 LoRa_library
+CONN-TH_1.25T-1-2A
+CONN-TH_1.25T-1-2A footprint
+CONN-TH_1.25T-1-2A footprint C10819
+0
+2
+2
+LoRa_library
 GPSM-SMD_18P-L10.1-W9.7-P1.10
 GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint
 GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint C2916234
 0
 18
 18
-LoRa_library
-KEY-TH_K2-1102AQ-KXXW-XX
-KEY-TH_K2-1102AQ-KXXW-XX footprint
-KEY-TH_K2-1102AQ-KXXW-XX footprint C136734
-0
-4
-4
 LoRa_library
 SMA-SMD_BWSMA-KE-P001
 SMA-SMD_BWSMA-KE-P001 footprint
@@ -71847,6 +71847,13 @@ SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C136154
 0
 5
 5
+LoRa_library
+SW-SMD_EVQPUD02K
+SW-SMD_EVQPUD02K footprint
+SW-SMD_EVQPUD02K footprint C79174
+0
+4
+4
 LoRa_library
 SW-TH_SK-12D02-VG5
 SW-TH_SK-12D02-VG5 footprint
