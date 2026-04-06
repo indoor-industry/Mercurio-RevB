@@ -1,4 +1,4 @@
-27529614214032641
+27534940534887977
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71813,6 +71813,13 @@ AUDIO-TH_320B footprint C18166
 3
 3
 LoRa_library
+BUZ-SMD_L5.0-W5.5-P4.60
+BUZ-SMD_L5.0-W5.5-P4.60 footprint
+BUZ-SMD_L5.0-W5.5-P4.60 footprint C94598
+0
+3
+3
+LoRa_library
 COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P
 COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P footprint
 COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P footprint C42420049
@@ -71875,6 +71882,20 @@ USB-C-SMD_HANBO_MC-121-L119 footprint C6332278
 0
 16
 13
+LoRa_library
+WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7
+WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7 footprint
+WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7 footprint C962342
+0
+21
+21
+LoRa_library
+WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A
+WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A footprint
+WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A footprint C19725033
+0
+11
+11
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
