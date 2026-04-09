@@ -12,16 +12,16 @@ OK GPIO35-36-37 might be the reason PSRAM doesn't work. https://forum.arduino.cc
 OK Guess I can remove the secre element if need pins.
 OK Check that header pins can use I2S.
 OK Maybe can repurpose IO1?
-   Battery connector too big, smaller version I believe is JST 1.25mm pin distance, change footprint.
+OK Battery connector too big, smaller version I believe is JST 1.25mm pin distance, change footprint.
 OK Consider Inner2 as power 3V3 plane, removes need for 3V3 traces around top layer. As of ESP32 deisgn guidelines.
 OK Smaller headers to thin out the whole design. Hence redesign case accrodingly.
    Check design guidelines for matching circuit of RF antenna. More space due to power trace being removed allows proper guidelines to be followed. What's a Stub? -> Unnecessary if we use 0402 or bigger passive components for the inductance matching circuit.
-   More ground Vias under ESP32.
+   More ground Vias under ESP32 and power supply ICs.
 OK Consider a GPIO expander such as an MCP23S17.
-   Test ST pin on power MUX on RevA.
+OK Test ST pin on power MUX on RevA.
    Pull-up on MISOA is problematic for anything other than SD card?
 OK Add micro SD slot.
-   Solar power support.
+OK Solar power support.
 OK Swap Ra01H with Ra01SH.
    External pullup/downs on strapping pins?
 OK Add buttons and modify case accordingly.
