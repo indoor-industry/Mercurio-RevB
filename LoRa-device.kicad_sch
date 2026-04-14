@@ -3600,6 +3600,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -11313,304 +11463,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Inductors:68nH,300mA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 1.2673 0.834 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "68nH,300mA"
-				(at 1.2673 -1.2122 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:L_0603"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301641_Sunlord-SDCL1608C68NJTDF_C13415.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "300mA 68nH ±5% 850mΩ 0603 Inductors (SMD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C13415"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "37899"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.013USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Preferred Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Inductors/Coils/Transformers,Inductors (SMD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Sunlord"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "SDCL1608C68NJTDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Inductance" "68nH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Q @ Freq" "12@100MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency - Self Resonant" "900MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rated Current" "300mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DC Resistance (DCR)" "850mΩ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "68nH,300mA_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "68nH,300mA_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Resistors:0402,0Ω"
 			(pin_numbers
 				(hide yes)
@@ -17562,7 +17414,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 187.96) (xy 250.19 187.96)
+			(xy 247.65 187.96) (xy 250.19 187.96)
 		)
 		(stroke
 			(width 0)
@@ -18042,6 +17894,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 163.83) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37023936-1c45-4926-8e3b-88a1fc778361")
+	)
+	(wire
+		(pts
 			(xy 337.82 76.2) (xy 337.82 80.01)
 		)
 		(stroke
@@ -18392,7 +18254,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 170.18) (xy 113.03 172.72)
+			(xy 113.03 171.45) (xy 113.03 172.72)
 		)
 		(stroke
 			(width 0)
@@ -18439,16 +18301,6 @@
 			(type default)
 		)
 		(uuid "477b4c81-ffd2-4a63-9514-8b892d222fc5")
-	)
-	(wire
-		(pts
-			(xy 38.1 34.29) (xy 38.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d7bf6f-cc4d-4e05-8fbd-8010ab40907d")
 	)
 	(wire
 		(pts
@@ -18732,7 +18584,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 187.96) (xy 241.3 187.96)
+			(xy 237.49 187.96) (xy 240.03 187.96)
 		)
 		(stroke
 			(width 0)
@@ -22112,7 +21964,7 @@
 	)
 	(global_label "MISOB"
 		(shape input)
-		(at 38.1 38.1 270)
+		(at 38.1 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22122,7 +21974,7 @@
 		)
 		(uuid "01489454-8d5b-4140-9fbb-d8b73e3c69bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 46.9514 90)
+			(at 38.1 53.3014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22572,7 +22424,7 @@
 			)
 		)
 	)
-	(global_label "SCKA"
+	(global_label "SCKB"
 		(shape input)
 		(at 387.35 50.8 180)
 		(fields_autoplaced yes)
@@ -22584,7 +22436,7 @@
 		)
 		(uuid "3044cce9-e9d1-4a0c-9fe0-4893179d1e8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.5267 50.8 0)
+			(at 379.3453 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22594,7 +22446,7 @@
 			)
 		)
 	)
-	(global_label "MOSIA"
+	(global_label "MOSIB"
 		(shape input)
 		(at 387.35 45.72 180)
 		(fields_autoplaced yes)
@@ -22606,7 +22458,7 @@
 		)
 		(uuid "322964f8-fd87-4091-a839-cd613e857745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.68 45.72 0)
+			(at 378.4986 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22616,7 +22468,7 @@
 			)
 		)
 	)
-	(global_label "SCKB"
+	(global_label "SCKA"
 		(shape input)
 		(at 35.56 38.1 270)
 		(fields_autoplaced yes)
@@ -22628,7 +22480,7 @@
 		)
 		(uuid "33c19710-ee54-4877-b84d-59227a8aa927")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 46.1047 90)
+			(at 35.56 45.9233 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23804,7 +23656,7 @@
 			)
 		)
 	)
-	(global_label "MISOB"
+	(global_label "MISOA"
 		(shape input)
 		(at 27.94 38.1 270)
 		(fields_autoplaced yes)
@@ -23816,7 +23668,7 @@
 		)
 		(uuid "974f81e1-aa15-42d1-931b-f0a71ccfffb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 46.9514 90)
+			(at 27.94 46.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24222,7 +24074,7 @@
 			)
 		)
 	)
-	(global_label "MISOA"
+	(global_label "MISOB"
 		(shape input)
 		(at 387.35 55.88 180)
 		(fields_autoplaced yes)
@@ -24234,7 +24086,7 @@
 		)
 		(uuid "b6bc3e67-6ea1-4d36-aaf4-526924f2fadf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.68 55.88 0)
+			(at 378.4986 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24706,7 +24558,7 @@
 			)
 		)
 	)
-	(global_label "MOSIB"
+	(global_label "MOSIA"
 		(shape input)
 		(at 30.48 38.1 270)
 		(fields_autoplaced yes)
@@ -24718,7 +24570,7 @@
 		)
 		(uuid "e11f0dc3-41e4-4bdc-b91b-305c6368040f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 46.9514 90)
+			(at 30.48 46.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25080,7 +24932,7 @@
 			)
 		)
 	)
-	(global_label "MISOA"
+	(global_label "MISOB"
 		(shape input)
 		(at 439.42 50.8 270)
 		(fields_autoplaced yes)
@@ -25092,7 +24944,7 @@
 		)
 		(uuid "fd63be96-930c-4fd5-9289-7596cf786bf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 59.47 90)
+			(at 439.42 59.6514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30158,7 +30010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "1.4pF"
 			(at 254 198.1199 0)
 			(effects
 				(font
@@ -30194,7 +30046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNF PART NUMBER" "C1548"
+		(property "MNF PART NUMBER" "C2181496"
 			(at 250.19 196.85 0)
 			(effects
 				(font
@@ -30227,7 +30079,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1548"
+		(property "LCSC" "C2181496"
 			(at 254 199.3899 0)
 			(effects
 				(font
@@ -39822,7 +39674,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 245.11 187.96 90)
+		(at 243.84 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39830,15 +39682,15 @@
 		(dnp no)
 		(uuid "70028f1f-5872-43dc-be74-2faf4846648c")
 		(property "Reference" "L6"
-			(at 245.364 185.42 90)
+			(at 244.094 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7nH"
-			(at 245.364 189.992 90)
+		(property "Value" "2.7nH"
+			(at 244.094 189.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39846,7 +39698,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 245.11 187.96 0)
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39855,7 +39707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 187.96 0)
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39864,7 +39716,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 245.11 187.96 0)
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39872,8 +39724,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNF PART NUMBER" "C13595"
-			(at 245.11 187.96 0)
+		(property "MNF PART NUMBER" "C27123"
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39882,15 +39734,15 @@
 			)
 		)
 		(property "PARTNO" ""
-			(at 245.11 187.96 0)
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C13595"
-			(at 245.11 187.96 0)
+		(property "LCSC" "C27123"
+			(at 243.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42775,116 +42627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 237.49 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "88d46c01-3930-4da0-afe1-790ca6711b18")
-		(property "Reference" "DNP1"
-			(at 241.3 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 241.3 198.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 238.4552 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNF PART NUMBER" ""
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 237.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 242.316 200.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a09b000d-5120-45a2-94e6-74789ebeb3bf")
-		)
-		(pin "2"
-			(uuid "ed0bbea5-37ae-417f-95cc-652b02a47a18")
-		)
-		(instances
-			(project "LoRa-device"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "DNP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 367.03 63.5 0)
 		(unit 1)
@@ -43956,6 +43698,102 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 113.03 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9623560c-b930-4df7-a5a3-72f9be582c3e")
+		(property "Reference" "L2"
+			(at 114.3 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "68nH"
+			(at 114.3 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C32836"
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" ""
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C32836"
+			(at 110.49 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef61cab-3145-447e-a355-a124951337f0")
+		)
+		(pin "2"
+			(uuid "15079eda-c49d-454e-8cd9-891d70cca588")
+		)
+		(instances
+			(project "LoRa-device"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -45551,6 +45389,76 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 38.1 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5612461-b129-4b8f-8f9d-099fe1a12c07")
+		(property "Reference" "JP1"
+			(at 39.37 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 39.37 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d06fb723-21f4-4dd3-bbef-bd00a9271fb4")
+		)
+		(pin "2"
+			(uuid "57089dcf-6328-432c-9d93-6f0b29f6bda4")
+		)
+		(instances
+			(project ""
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -48016,7 +47924,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNF PART NUMBER" "C77103"
+		(property "MNF PART NUMBER" "C18216"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -48033,7 +47941,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77103"
+		(property "LCSC" "C18216"
 			(at 175.26 87.63 90)
 			(effects
 				(font
@@ -48398,6 +48306,119 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba96490c-9f0f-415a-91c5-53092dab6538")
+		(property "Reference" "C12"
+			(at 241.3 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.4pF"
+			(at 241.3 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.4552 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C2181496"
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2181496"
+			(at 241.3 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acdf004-af7a-4815-a1ca-6129039bd15b")
+		)
+		(pin "2"
+			(uuid "ec918007-2001-452b-82eb-cc1660467c73")
+		)
+		(instances
+			(project "LoRa-device"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -49355,220 +49376,6 @@
 			(project "LoRa-device"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Inductors:68nH,300mA")
-		(at 113.03 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5666715-ad4a-449d-900e-9594aac5dbd9")
-		(property "Reference" "L4"
-			(at 114.3 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68nH,300mA"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:L_0603"
-			(at 111.252 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301641_Sunlord-SDCL1608C68NJTDF_C13415.pdf"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA 68nH ±5% 850mΩ 0603 Inductors (SMD) ROHS"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C13415"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "37899"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.013USD"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "6"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors/Coils/Transformers,Inductors (SMD)"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Sunlord"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SDCL1608C68NJTDF"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inductance" "68nH"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Q @ Freq" "12@100MHz"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency - Self Resonant" "900MHz"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±5%"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" "300mA"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DC Resistance (DCR)" "850mΩ"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2481cf93-9ed8-4de4-ba2a-8ea6d151879d")
-		)
-		(pin "2"
-			(uuid "8fd64d31-0264-49b9-a2f2-58af5d4faf05")
-		)
-		(instances
-			(project ""
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "L4")
 					(unit 1)
 				)
 			)
