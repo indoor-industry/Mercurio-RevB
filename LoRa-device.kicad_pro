@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.0,
-          "width": 4.0
+          "height": 0.8,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -578,6 +578,10 @@
       {
         "netclass": "RF",
         "pattern": "Net-(AE1-FEED)"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "VBAT"
       }
     ]
   },
