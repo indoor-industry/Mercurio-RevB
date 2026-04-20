@@ -1,4 +1,4 @@
-27534942496572970
+27536719140694211
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71833,6 +71833,13 @@ CONN-TH_1.25T-1-2A footprint C10819
 0
 2
 2
+LoRa_library
+FPC240A8230-V1-E
+
+
+0
+18
+18
 LoRa_library
 GPSM-SMD_18P-L10.1-W9.7-P1.10
 GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint
