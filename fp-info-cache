@@ -1,4 +1,4 @@
-27536719140694211
+27540273440105872
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71847,6 +71847,20 @@ GPSM-SMD_18P-L10.1-W9.7-P1.10 footprint C2916234
 0
 18
 18
+LoRa_library
+IND-SMD_L4.6-W4.1
+IND-SMD_L4.6-W4.1 footprint
+IND-SMD_L4.6-W4.1 footprint C142096
+0
+2
+2
+LoRa_library
+SENSOR-SMD_ICS-43432
+SENSOR-SMD_ICS-43432 footprint
+SENSOR-SMD_ICS-43432 footprint C574021
+0
+8
+7
 LoRa_library
 SMA-SMD_BWSMA-KE-P001
 SMA-SMD_BWSMA-KE-P001 footprint

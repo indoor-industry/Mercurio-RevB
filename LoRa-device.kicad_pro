@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.2,
-          "width": 0.5
+          "height": 0.1,
+          "width": 0.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|124220650|89660000|3548f4b0-356c-4cb3-9099-c30440f5639d|c818ec50-abd6-438e-8b53-e53a61ea67b1",
+          ""
+        ],
+        [
+          "clearance|124492624|90460000|0663bf20-d432-4b71-bb02-5731c68b4a9a|a6fdc15a-ec89-45ed-b15b-89ad99770d9a",
+          ""
+        ],
+        [
+          "clearance|125054771|90860000|0472aa5b-dbb3-470c-b137-aefeed579ea1|862fee23-fd0c-444e-8bfa-0dedde80c6a9",
+          ""
+        ],
+        [
+          "clearance|125054771|90860000|5bec5eeb-9028-40cc-bab5-7864d54a8b3a|862fee23-fd0c-444e-8bfa-0dedde80c6a9",
+          ""
+        ],
+        [
+          "clearance|125448800|90460000|862fee23-fd0c-444e-8bfa-0dedde80c6a9|a6fdc15a-ec89-45ed-b15b-89ad99770d9a",
+          ""
+        ],
+        [
+          "clearance|125475314|89660000|3548f4b0-356c-4cb3-9099-c30440f5639d|a6fdc15a-ec89-45ed-b15b-89ad99770d9a",
+          ""
+        ],
+        [
+          "clearance|131100000|85210000|27b7b57d-2464-4309-b8b4-0d6bc3562780|b122093c-cdab-48e7-ba3c-c1af59a4807f",
+          ""
+        ],
+        [
+          "clearance|131200000|84860000|974144ba-eca9-4cb9-8675-952a467be240|b122093c-cdab-48e7-ba3c-c1af59a4807f",
+          ""
+        ],
+        [
+          "items_not_allowed|108880000|77290000|136d4d4f-a604-4232-8ed9-0681daa57664|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|113150000|111350000|6b16efb3-ee7b-43c9-af9c-2c5cb20a8ae1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|128950000|88472500|b2c29db3-b619-4de2-981e-b57ea872a93c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|133397500|111772500|5312de53-863d-4d0b-94b2-01f90996ad06|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|150722500|96920000|a4d52e83-85f4-43c4-b0c8-d52288f36e59|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|167950139|76135917|fccd49c6-929d-45a8-9fe5-020aead361bf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|168800000|92200000|ed662104-db05-4290-9fc7-bcd2404f1e77|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|174649618|121924993|b13826fa-715b-4b3f-b7b3-5b3a286f41f8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|177650012|76140127|a9c29352-8807-431e-9bcf-f41d7876a03a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
