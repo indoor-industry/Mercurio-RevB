@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.1,
-          "width": 0.1
+          "height": 0.3,
+          "width": 1.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -85,10 +85,6 @@
         ],
         [
           "clearance|131100000|85210000|27b7b57d-2464-4309-b8b4-0d6bc3562780|b122093c-cdab-48e7-ba3c-c1af59a4807f",
-          ""
-        ],
-        [
-          "clearance|131200000|84860000|974144ba-eca9-4cb9-8675-952a467be240|b122093c-cdab-48e7-ba3c-c1af59a4807f",
           ""
         ],
         [
@@ -1058,7 +1054,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {

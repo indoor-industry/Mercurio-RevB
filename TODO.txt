@@ -19,7 +19,7 @@ OK Check design guidelines for matching circuit of RF antenna. More space due to
 OK More ground Vias under ESP32 and power supply ICs.
 OK Consider a GPIO expander such as an MCP23S17.
 OK Test ST pin on power MUX on RevA.
-   Pull-up on MISOA is problematic for anything other than SD card?
+   Pull-up on MISOB is problematic for anything other than SD card?
 OK Add micro SD slot.
 OK Solar power support.
 OK Swap Ra01H with Ra01SH.
