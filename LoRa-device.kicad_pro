@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.025,
-          "width": 0.3
+          "height": 0.6,
+          "width": 1.07
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,11 +68,11 @@
           ""
         ],
         [
-          "clearance|125054771|90860000|0472aa5b-dbb3-470c-b137-aefeed579ea1|862fee23-fd0c-444e-8bfa-0dedde80c6a9",
+          "clearance|125054771|90460000|862fee23-fd0c-444e-8bfa-0dedde80c6a9|c3bf4002-e94c-4567-b059-35b6b9f80af1",
           ""
         ],
         [
-          "clearance|125054771|90860000|5bec5eeb-9028-40cc-bab5-7864d54a8b3a|862fee23-fd0c-444e-8bfa-0dedde80c6a9",
+          "clearance|125054771|90860000|1b9933fe-f31b-451b-a3ef-6712c73fd282|862fee23-fd0c-444e-8bfa-0dedde80c6a9",
           ""
         ],
         [
@@ -85,10 +85,6 @@
         ],
         [
           "clearance|131100000|85210000|27b7b57d-2464-4309-b8b4-0d6bc3562780|b122093c-cdab-48e7-ba3c-c1af59a4807f",
-          ""
-        ],
-        [
-          "clearance|131200000|84860000|974144ba-eca9-4cb9-8675-952a467be240|b122093c-cdab-48e7-ba3c-c1af59a4807f",
           ""
         ],
         [
