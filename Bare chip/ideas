@@ -1,0 +1,2 @@
+Enable pullup is redudndant
+32khz crystal might be unnecessary (frees pins for lora stuff that is on expander or on IO46 strapping pin)
