@@ -1,6 +1,7 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "my_footprints")(type "KiCad")(uri "/home/mario/snap/kicad/22/KiCAD_libs/my_footprints.pretty")(options "")(descr ""))
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Component models/KiCAD_symbol_ library/Library.pretty")(options "")(descr ""))
-  (lib (name "LoRa_library")(type "KiCad")(uri "${KIPRJMOD}/Component models/KiCAD_symbol_ library/LoRa_library.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "my_footprints") (type "KiCad") (uri "/home/mario/snap/kicad/22/KiCAD_libs/my_footprints.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Component models/KiCAD_symbol_ library/Library.pretty") (options "") (descr ""))
+	(lib (name "LoRa_library") (type "KiCad") (uri "${KIPRJMOD}/Component models/KiCAD_symbol_ library/LoRa_library.pretty") (options "") (descr ""))
+	(lib (name "Mercurio") (type "KiCad") (uri "/home/mario/Documents/LoRa-device-RevB/component_libraries/Mercurio.pretty") (options "") (descr ""))
 )
