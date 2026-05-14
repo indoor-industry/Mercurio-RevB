@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.2,
-          "width": 0.5
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -778,6 +778,26 @@
       {
         "netclass": "3V3",
         "pattern": "VBAT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U17-ANT)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(DNP4-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U18-RF_IN)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(C27-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(J8-In)"
       }
     ]
   },
@@ -1271,7 +1291,7 @@
         "uuid": "b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C37,R55-60,R64-65",
     "variants": []
   },
   "sheets": [

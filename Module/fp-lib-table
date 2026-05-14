@@ -1,5 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "LoRa_library_modular") (type "KiCad") (uri "${KIPRJMOD}/Component models/KiCAD_symbol_ library/LoRa_library_modular.pretty") (options "") (descr ""))
 	(lib (name "Mercurio") (type "KiCad") (uri "/home/mario/Documents/LoRa-device-RevB/component_libraries/Mercurio.pretty") (options "") (descr ""))
 )

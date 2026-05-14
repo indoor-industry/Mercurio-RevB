@@ -1,9 +1,9 @@
 (export
 	(version "E")
 	(design
-		(source "/home/mario/Documents/LoRa-device-RevB-module/LoRa-device.kicad_sch")
-		(date "2026-05-10T15:38:37")
-		(tool "Eeschema 10.0.1-10.0.1~ubuntu24.04.1")
+		(source "/home/mario/Documents/LoRa-device-RevB/Module/LoRa-device.kicad_sch")
+		(date "2026-05-13T13:48:37")
+		(tool "Eeschema 10.0.2-10.0.2~ubuntu24.04.1")
 		(sheet
 			(number "1")
 			(name "/")
@@ -3137,6 +3137,140 @@
 			)
 		)
 		(comp
+			(ref "C37")
+			(value "10uF")
+			(footprint "PCM_JLCPCB:C_0603")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf")
+			(description "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			(fields
+				(field
+					(name "LCSC") "C96446")
+				(field
+					(name "Stock") "3388297")
+				(field
+					(name "Price") "0.021USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "8")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Part") "CL10A106MA8NRNC")
+				(field
+					(name "Voltage Rated") "25V")
+				(field
+					(name "Tolerance") "±20%")
+				(field
+					(name "Capacitance") "10uF")
+				(field
+					(name "Temperature Coefficient") "X5R")
+				(field
+					(name "Footprint") "PCM_JLCPCB:C_0603")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf")
+				(field
+					(name "Description") "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Capacitors")
+				(part "0603,10uF,(2)")
+				(description "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C96446")
+			)
+			(property
+				(name "Stock")
+				(value "3388297")
+			)
+			(property
+				(name "Price")
+				(value "0.021USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "8")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "Part")
+				(value "CL10A106MA8NRNC")
+			)
+			(property
+				(name "Voltage Rated")
+				(value "25V")
+			)
+			(property
+				(name "Tolerance")
+				(value "±20%")
+			)
+			(property
+				(name "Capacitance")
+				(value "10uF")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "X5R")
+			)
+			(property
+				(name "Sheetname")
+				(value "LoRa-device")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0fff4e8c-1add-4342-a9a0-8721b01d0ba4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "C39")
 			(value "100nF")
 			(footprint "PCM_JLCPCB:C_0402")
@@ -5147,140 +5281,6 @@
 			)
 		)
 		(comp
-			(ref "C55")
-			(value "10uF")
-			(footprint "PCM_JLCPCB:C_0603")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf")
-			(description "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-			(fields
-				(field
-					(name "LCSC") "C19702")
-				(field
-					(name "Stock") "9881407")
-				(field
-					(name "Price") "0.009USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
-				(field
-					(name "Manufacturer") "Samsung Electro-Mechanics")
-				(field
-					(name "Part") "CL10A106KP8NNNC")
-				(field
-					(name "Voltage Rated") "10V")
-				(field
-					(name "Tolerance") "±10%")
-				(field
-					(name "Capacitance") "10uF")
-				(field
-					(name "Temperature Coefficient") "X5R")
-				(field
-					(name "Footprint") "PCM_JLCPCB:C_0603")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf")
-				(field
-					(name "Description") "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-			)
-			(libsource
-				(lib "PCM_JLCPCB-Capacitors")
-				(part "0603,10uF")
-				(description "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-			)
-			(property
-				(name "LCSC")
-				(value "C19702")
-			)
-			(property
-				(name "Stock")
-				(value "9881407")
-			)
-			(property
-				(name "Price")
-				(value "0.009USD")
-			)
-			(property
-				(name "Process")
-				(value "SMT")
-			)
-			(property
-				(name "Minimum Qty")
-				(value "20")
-			)
-			(property
-				(name "Attrition Qty")
-				(value "10")
-			)
-			(property
-				(name "Class")
-				(value "Basic Component")
-			)
-			(property
-				(name "Category")
-				(value "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Samsung Electro-Mechanics")
-			)
-			(property
-				(name "Part")
-				(value "CL10A106KP8NNNC")
-			)
-			(property
-				(name "Voltage Rated")
-				(value "10V")
-			)
-			(property
-				(name "Tolerance")
-				(value "±10%")
-			)
-			(property
-				(name "Capacitance")
-				(value "10uF")
-			)
-			(property
-				(name "Temperature Coefficient")
-				(value "X5R")
-			)
-			(property
-				(name "Sheetname")
-				(value "LoRa-device")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LoRa-device.kicad_sch")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "72c510d5-cb4c-4c45-8b80-0ae33c4f00d8")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C56")
 			(value "22uF")
 			(footprint "PCM_JLCPCB:C_0603")
@@ -5555,7 +5555,7 @@
 			(description "Light emitting diode")
 			(fields
 				(field
-					(name "MNF PART NUMBER") "C2286")
+					(name "Part") "KT-0603R")
 				(field
 					(name "Sim.Device")
 				)
@@ -5580,8 +5580,8 @@
 				(description "Light emitting diode")
 			)
 			(property
-				(name "MNF PART NUMBER")
-				(value "C2286")
+				(name "Part")
+				(value "KT-0603R")
 			)
 			(property
 				(name "Sim.Device")
@@ -5641,7 +5641,7 @@
 			(description "Light emitting diode")
 			(fields
 				(field
-					(name "MNF PART NUMBER") "C2286")
+					(name "Part") "KT-0603R")
 				(field
 					(name "Sim.Device")
 				)
@@ -5666,8 +5666,8 @@
 				(description "Light emitting diode")
 			)
 			(property
-				(name "MNF PART NUMBER")
-				(value "C2286")
+				(name "Part")
+				(value "KT-0603R")
 			)
 			(property
 				(name "Sim.Device")
@@ -5727,7 +5727,7 @@
 			(description "Light emitting diode")
 			(fields
 				(field
-					(name "MNF PART NUMBER") "C2286")
+					(name "Part") "KT-0603R")
 				(field
 					(name "Sim.Device")
 				)
@@ -5752,8 +5752,8 @@
 				(description "Light emitting diode")
 			)
 			(property
-				(name "MNF PART NUMBER")
-				(value "C2286")
+				(name "Part")
+				(value "KT-0603R")
 			)
 			(property
 				(name "Sim.Device")
@@ -5869,6 +5869,9 @@
 				(value "LoRa-device.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "dnp")
 			)
 			(property
@@ -5959,6 +5962,9 @@
 			(property
 				(name "Sheetfile")
 				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
 			)
 			(property
 				(name "dnp")
@@ -6053,6 +6059,9 @@
 				(value "LoRa-device.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "dnp")
 			)
 			(property
@@ -6143,6 +6152,9 @@
 			(property
 				(name "Sheetfile")
 				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
 			)
 			(property
 				(name "dnp")
@@ -6583,27 +6595,33 @@
 		(comp
 			(ref "J1")
 			(value "Micro_SD_Card_Det1")
-			(footprint "LoRa_library_modular:TF-SMD_TF-01A")
+			(footprint "Mercurio:TF-SMD_TF-01A")
 			(datasheet "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
 			(description "Micro SD Card Socket with one card detection pin")
 			(fields
 				(field
 					(name "LCSC") "C91145")
 				(field
-					(name "Footprint") "LoRa_library_modular:TF-SMD_TF-01A")
+					(name "Part") "TF-01A")
+				(field
+					(name "Footprint") "Mercurio:TF-SMD_TF-01A")
 				(field
 					(name "Datasheet") "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
 				(field
 					(name "Description") "Micro SD Card Socket with one card detection pin")
 			)
 			(libsource
-				(lib "Connector")
+				(lib "Mercurio")
 				(part "Micro_SD_Card_Det1")
 				(description "Micro SD Card Socket with one card detection pin")
 			)
 			(property
 				(name "LCSC")
 				(value "C91145")
+			)
+			(property
+				(name "Part")
+				(value "TF-01A")
 			)
 			(property
 				(name "Sheetname")
@@ -6683,6 +6701,8 @@
 				(field
 					(name "LCSC") "C19274016")
 				(field
+					(name "Part") "HC-TYPE-C-16P-3M2S")
+				(field
 					(name "Footprint") "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A")
 				(field
 					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
@@ -6697,6 +6717,10 @@
 			(property
 				(name "LCSC")
 				(value "C19274016")
+			)
+			(property
+				(name "Part")
+				(value "HC-TYPE-C-16P-3M2S")
 			)
 			(property
 				(name "Sheetname")
@@ -6800,6 +6824,9 @@
 				(value "LoRa-device.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "ki_keywords")
 				(value "connector")
 			)
@@ -6858,6 +6885,9 @@
 			(property
 				(name "Sheetfile")
 				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
 			)
 			(property
 				(name "ki_keywords")
@@ -6950,6 +6980,9 @@
 				(value "LoRa-device.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "ki_keywords")
 				(value "connector")
 			)
@@ -6992,6 +7025,8 @@
 				(field
 					(name "LCSC") "C5137195")
 				(field
+					(name "Part") "BWU.FL-IPEX1")
+				(field
 					(name "Footprint") "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E")
 				(field
 					(name "Datasheet") "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208151830_BAT-WIRELESS-BWU-FL-IPEX1_C5137195.pdf")
@@ -7006,6 +7041,10 @@
 			(property
 				(name "LCSC")
 				(value "C5137195")
+			)
+			(property
+				(name "Part")
+				(value "BWU.FL-IPEX1")
 			)
 			(property
 				(name "Sheetname")
@@ -7112,7 +7151,7 @@
 			(description "Inductor")
 			(fields
 				(field
-					(name "MNF PART NUMBER") "C32836")
+					(name "Part") "SDCL1005C68NJTDF")
 				(field
 					(name "PARTNO")
 				)
@@ -7132,8 +7171,8 @@
 				(description "Inductor")
 			)
 			(property
-				(name "MNF PART NUMBER")
-				(value "C32836")
+				(name "Part")
+				(value "SDCL1005C68NJTDF")
 			)
 			(property
 				(name "PARTNO")
@@ -7181,13 +7220,13 @@
 		(comp
 			(ref "P1")
 			(value "1_25T-1-2A")
-			(footprint "LoRa_library_modular:CONN-TH_1.25T-1-2A")
+			(footprint "Mercurio:CONN-TH_1.25T-1-2A")
 			(datasheet "https://item.szlcsc.com/11365.html")
 			(fields
 				(field
 					(name "LCSC") "C10819")
 				(field
-					(name "Footprint") "LoRa_library_modular:CONN-TH_1.25T-1-2A")
+					(name "Footprint") "Mercurio:CONN-TH_1.25T-1-2A")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/11365.html")
 				(field
@@ -7195,7 +7234,7 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "1_25T-1-2A")
 				(description "")
 			)
@@ -7240,13 +7279,13 @@
 		(comp
 			(ref "P2")
 			(value "1_25T-1-2A")
-			(footprint "LoRa_library_modular:CONN-TH_1.25T-1-2A")
+			(footprint "Mercurio:CONN-TH_1.25T-1-2A")
 			(datasheet "https://item.szlcsc.com/11365.html")
 			(fields
 				(field
 					(name "LCSC") "C10819")
 				(field
-					(name "Footprint") "LoRa_library_modular:CONN-TH_1.25T-1-2A")
+					(name "Footprint") "Mercurio:CONN-TH_1.25T-1-2A")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/11365.html")
 				(field
@@ -7254,7 +7293,7 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "1_25T-1-2A")
 				(description "")
 			)
@@ -8194,158 +8233,6 @@
 				(tstamps "/")
 			)
 			(tstamps "38364926-10ca-467f-84b3-fc310938dcec")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R9")
-			(value "0Ω")
-			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			(fields
-				(field
-					(name "LCSC") "C17168")
-				(field
-					(name "Stock") "9510686")
-				(field
-					(name "Price") "0.004USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Resistors,Chip Resistor - Surface Mount")
-				(field
-					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
-				(field
-					(name "Part") "0402WGF0000TCE")
-				(field
-					(name "Resistance") "0Ω")
-				(field
-					(name "Power(Watts)") "62.5mW")
-				(field
-					(name "Type") "Thick Film Resistors")
-				(field
-					(name "Overload Voltage (Max)") "50V")
-				(field
-					(name "Operating Temperature Range") "-55°C~+155°C")
-				(field
-					(name "Tolerance") "±1%")
-				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
-				(field
-					(name "Footprint") "PCM_JLCPCB:R_0402")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(libsource
-				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(property
-				(name "LCSC")
-				(value "C17168")
-			)
-			(property
-				(name "Stock")
-				(value "9510686")
-			)
-			(property
-				(name "Price")
-				(value "0.004USD")
-			)
-			(property
-				(name "Process")
-				(value "SMT")
-			)
-			(property
-				(name "Minimum Qty")
-				(value "20")
-			)
-			(property
-				(name "Attrition Qty")
-				(value "10")
-			)
-			(property
-				(name "Class")
-				(value "Basic Component")
-			)
-			(property
-				(name "Category")
-				(value "Resistors,Chip Resistor - Surface Mount")
-			)
-			(property
-				(name "Manufacturer")
-				(value "UNI-ROYAL(Uniroyal Elec)")
-			)
-			(property
-				(name "Part")
-				(value "0402WGF0000TCE")
-			)
-			(property
-				(name "Resistance")
-				(value "0Ω")
-			)
-			(property
-				(name "Power(Watts)")
-				(value "62.5mW")
-			)
-			(property
-				(name "Type")
-				(value "Thick Film Resistors")
-			)
-			(property
-				(name "Overload Voltage (Max)")
-				(value "50V")
-			)
-			(property
-				(name "Operating Temperature Range")
-				(value "-55°C~+155°C")
-			)
-			(property
-				(name "Tolerance")
-				(value "±1%")
-			)
-			(property
-				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
-			)
-			(property
-				(name "Sheetname")
-				(value "LoRa-device")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LoRa-device.kicad_sch")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "32f07253-c432-476f-b49e-8479f85694dd")
 			(units
 				(unit
 					(name "A")
@@ -13833,16 +13720,16 @@
 			)
 		)
 		(comp
-			(ref "R58")
-			(value "0Ω")
+			(ref "R55")
+			(value "33Ω")
 			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17168")
+					(name "LCSC") "C25105")
 				(field
-					(name "Stock") "9510686")
+					(name "Stock") "2122900")
 				(field
 					(name "Price") "0.004USD")
 				(field
@@ -13858,9 +13745,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0402WGF0000TCE")
+					(name "Part") "0402WGF330JTCE")
 				(field
-					(name "Resistance") "0Ω")
+					(name "Resistance") "33Ω")
 				(field
 					(name "Power(Watts)") "62.5mW")
 				(field
@@ -13872,26 +13759,26 @@
 				(field
 					(name "Tolerance") "±1%")
 				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
+					(name "Temperature Coefficient") "±100ppm/°C")
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0402")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
 				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17168")
+				(value "C25105")
 			)
 			(property
 				(name "Stock")
-				(value "9510686")
+				(value "2122900")
 			)
 			(property
 				(name "Price")
@@ -13923,11 +13810,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0402WGF0000TCE")
+				(value "0402WGF330JTCE")
 			)
 			(property
 				(name "Resistance")
-				(value "0Ω")
+				(value "33Ω")
 			)
 			(property
 				(name "Power(Watts)")
@@ -13951,7 +13838,7 @@
 			)
 			(property
 				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
+				(value "±100ppm/°C")
 			)
 			(property
 				(name "Sheetname")
@@ -13969,7 +13856,463 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0d26811c-9077-435a-9484-b992aa8bbc1e")
+			(tstamps "796b2455-fd95-4255-ada8-f438abababf9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R56")
+			(value "33Ω")
+			(footprint "PCM_JLCPCB:R_0402")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(fields
+				(field
+					(name "LCSC") "C25105")
+				(field
+					(name "Stock") "2122900")
+				(field
+					(name "Price") "0.004USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0402WGF330JTCE")
+				(field
+					(name "Resistance") "33Ω")
+				(field
+					(name "Power(Watts)") "62.5mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "50V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±100ppm/°C")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0402")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+				(field
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Resistors")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C25105")
+			)
+			(property
+				(name "Stock")
+				(value "2122900")
+			)
+			(property
+				(name "Price")
+				(value "0.004USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "10")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Resistors,Chip Resistor - Surface Mount")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(Uniroyal Elec)")
+			)
+			(property
+				(name "Part")
+				(value "0402WGF330JTCE")
+			)
+			(property
+				(name "Resistance")
+				(value "33Ω")
+			)
+			(property
+				(name "Power(Watts)")
+				(value "62.5mW")
+			)
+			(property
+				(name "Type")
+				(value "Thick Film Resistors")
+			)
+			(property
+				(name "Overload Voltage (Max)")
+				(value "50V")
+			)
+			(property
+				(name "Operating Temperature Range")
+				(value "-55°C~+155°C")
+			)
+			(property
+				(name "Tolerance")
+				(value "±1%")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "±100ppm/°C")
+			)
+			(property
+				(name "Sheetname")
+				(value "LoRa-device")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "94224390-fd99-4061-a226-85e1ba34b28b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R57")
+			(value "33Ω")
+			(footprint "PCM_JLCPCB:R_0402")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(fields
+				(field
+					(name "LCSC") "C25105")
+				(field
+					(name "Stock") "2122900")
+				(field
+					(name "Price") "0.004USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0402WGF330JTCE")
+				(field
+					(name "Resistance") "33Ω")
+				(field
+					(name "Power(Watts)") "62.5mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "50V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±100ppm/°C")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0402")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+				(field
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Resistors")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C25105")
+			)
+			(property
+				(name "Stock")
+				(value "2122900")
+			)
+			(property
+				(name "Price")
+				(value "0.004USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "10")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Resistors,Chip Resistor - Surface Mount")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(Uniroyal Elec)")
+			)
+			(property
+				(name "Part")
+				(value "0402WGF330JTCE")
+			)
+			(property
+				(name "Resistance")
+				(value "33Ω")
+			)
+			(property
+				(name "Power(Watts)")
+				(value "62.5mW")
+			)
+			(property
+				(name "Type")
+				(value "Thick Film Resistors")
+			)
+			(property
+				(name "Overload Voltage (Max)")
+				(value "50V")
+			)
+			(property
+				(name "Operating Temperature Range")
+				(value "-55°C~+155°C")
+			)
+			(property
+				(name "Tolerance")
+				(value "±1%")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "±100ppm/°C")
+			)
+			(property
+				(name "Sheetname")
+				(value "LoRa-device")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b3e8a769-3038-460e-8948-c003891fb054")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R58")
+			(value "33Ω")
+			(footprint "PCM_JLCPCB:R_0402")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(fields
+				(field
+					(name "LCSC") "C25105")
+				(field
+					(name "Stock") "2122900")
+				(field
+					(name "Price") "0.004USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0402WGF330JTCE")
+				(field
+					(name "Resistance") "33Ω")
+				(field
+					(name "Power(Watts)") "62.5mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "50V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±100ppm/°C")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0402")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+				(field
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Resistors")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C25105")
+			)
+			(property
+				(name "Stock")
+				(value "2122900")
+			)
+			(property
+				(name "Price")
+				(value "0.004USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "10")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Resistors,Chip Resistor - Surface Mount")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(Uniroyal Elec)")
+			)
+			(property
+				(name "Part")
+				(value "0402WGF330JTCE")
+			)
+			(property
+				(name "Resistance")
+				(value "33Ω")
+			)
+			(property
+				(name "Power(Watts)")
+				(value "62.5mW")
+			)
+			(property
+				(name "Type")
+				(value "Thick Film Resistors")
+			)
+			(property
+				(name "Overload Voltage (Max)")
+				(value "50V")
+			)
+			(property
+				(name "Operating Temperature Range")
+				(value "-55°C~+155°C")
+			)
+			(property
+				(name "Tolerance")
+				(value "±1%")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "±100ppm/°C")
+			)
+			(property
+				(name "Sheetname")
+				(value "LoRa-device")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LoRa-device.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33be36c3-bd4d-4fcf-80c1-8f491cbd9835")
 			(units
 				(unit
 					(name "A")
@@ -13986,15 +14329,15 @@
 		)
 		(comp
 			(ref "R59")
-			(value "0Ω")
+			(value "33Ω")
 			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17168")
+					(name "LCSC") "C25105")
 				(field
-					(name "Stock") "9510686")
+					(name "Stock") "2122900")
 				(field
 					(name "Price") "0.004USD")
 				(field
@@ -14010,9 +14353,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0402WGF0000TCE")
+					(name "Part") "0402WGF330JTCE")
 				(field
-					(name "Resistance") "0Ω")
+					(name "Resistance") "33Ω")
 				(field
 					(name "Power(Watts)") "62.5mW")
 				(field
@@ -14024,26 +14367,26 @@
 				(field
 					(name "Tolerance") "±1%")
 				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
+					(name "Temperature Coefficient") "±100ppm/°C")
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0402")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
 				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17168")
+				(value "C25105")
 			)
 			(property
 				(name "Stock")
-				(value "9510686")
+				(value "2122900")
 			)
 			(property
 				(name "Price")
@@ -14075,11 +14418,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0402WGF0000TCE")
+				(value "0402WGF330JTCE")
 			)
 			(property
 				(name "Resistance")
-				(value "0Ω")
+				(value "33Ω")
 			)
 			(property
 				(name "Power(Watts)")
@@ -14103,7 +14446,7 @@
 			)
 			(property
 				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
+				(value "±100ppm/°C")
 			)
 			(property
 				(name "Sheetname")
@@ -14121,7 +14464,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a171d5f9-5bae-4328-9a32-cd0f433075e6")
+			(tstamps "46d93cb5-4706-40a2-acb0-36d37f9092c1")
 			(units
 				(unit
 					(name "A")
@@ -14138,15 +14481,15 @@
 		)
 		(comp
 			(ref "R60")
-			(value "0Ω")
+			(value "33Ω")
 			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17168")
+					(name "LCSC") "C25105")
 				(field
-					(name "Stock") "9510686")
+					(name "Stock") "2122900")
 				(field
 					(name "Price") "0.004USD")
 				(field
@@ -14162,9 +14505,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0402WGF0000TCE")
+					(name "Part") "0402WGF330JTCE")
 				(field
-					(name "Resistance") "0Ω")
+					(name "Resistance") "33Ω")
 				(field
 					(name "Power(Watts)") "62.5mW")
 				(field
@@ -14176,26 +14519,26 @@
 				(field
 					(name "Tolerance") "±1%")
 				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
+					(name "Temperature Coefficient") "±100ppm/°C")
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0402")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
 				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17168")
+				(value "C25105")
 			)
 			(property
 				(name "Stock")
-				(value "9510686")
+				(value "2122900")
 			)
 			(property
 				(name "Price")
@@ -14227,11 +14570,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0402WGF0000TCE")
+				(value "0402WGF330JTCE")
 			)
 			(property
 				(name "Resistance")
-				(value "0Ω")
+				(value "33Ω")
 			)
 			(property
 				(name "Power(Watts)")
@@ -14255,7 +14598,7 @@
 			)
 			(property
 				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
+				(value "±100ppm/°C")
 			)
 			(property
 				(name "Sheetname")
@@ -14273,7 +14616,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "97f9d3ca-999c-4d60-8f30-22630eab9f41")
+			(tstamps "521c24a9-4330-4259-a72f-7814cb603d7a")
 			(units
 				(unit
 					(name "A")
@@ -14746,15 +15089,15 @@
 		)
 		(comp
 			(ref "R64")
-			(value "0Ω")
+			(value "33Ω")
 			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17168")
+					(name "LCSC") "C25105")
 				(field
-					(name "Stock") "9510686")
+					(name "Stock") "2122900")
 				(field
 					(name "Price") "0.004USD")
 				(field
@@ -14770,9 +15113,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0402WGF0000TCE")
+					(name "Part") "0402WGF330JTCE")
 				(field
-					(name "Resistance") "0Ω")
+					(name "Resistance") "33Ω")
 				(field
 					(name "Power(Watts)") "62.5mW")
 				(field
@@ -14784,26 +15127,26 @@
 				(field
 					(name "Tolerance") "±1%")
 				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
+					(name "Temperature Coefficient") "±100ppm/°C")
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0402")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
 				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17168")
+				(value "C25105")
 			)
 			(property
 				(name "Stock")
-				(value "9510686")
+				(value "2122900")
 			)
 			(property
 				(name "Price")
@@ -14835,11 +15178,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0402WGF0000TCE")
+				(value "0402WGF330JTCE")
 			)
 			(property
 				(name "Resistance")
-				(value "0Ω")
+				(value "33Ω")
 			)
 			(property
 				(name "Power(Watts)")
@@ -14863,7 +15206,7 @@
 			)
 			(property
 				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
+				(value "±100ppm/°C")
 			)
 			(property
 				(name "Sheetname")
@@ -14881,7 +15224,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f9c470ea-0148-4bf5-8e89-06fe545812b7")
+			(tstamps "71358c05-450c-46d9-bee6-815abcb707f5")
 			(units
 				(unit
 					(name "A")
@@ -14897,16 +15240,16 @@
 			)
 		)
 		(comp
-			(ref "R66")
-			(value "0Ω")
+			(ref "R65")
+			(value "33Ω")
 			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
+			(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17168")
+					(name "LCSC") "C25105")
 				(field
-					(name "Stock") "9510686")
+					(name "Stock") "2122900")
 				(field
 					(name "Price") "0.004USD")
 				(field
@@ -14922,9 +15265,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0402WGF0000TCE")
+					(name "Part") "0402WGF330JTCE")
 				(field
-					(name "Resistance") "0Ω")
+					(name "Resistance") "33Ω")
 				(field
 					(name "Power(Watts)") "62.5mW")
 				(field
@@ -14936,26 +15279,26 @@
 				(field
 					(name "Tolerance") "±1%")
 				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
+					(name "Temperature Coefficient") "±100ppm/°C")
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0402")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf")
 				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
+				(part "0402,33Ω")
+				(description "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 33Ω 0402 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17168")
+				(value "C25105")
 			)
 			(property
 				(name "Stock")
-				(value "9510686")
+				(value "2122900")
 			)
 			(property
 				(name "Price")
@@ -14987,11 +15330,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0402WGF0000TCE")
+				(value "0402WGF330JTCE")
 			)
 			(property
 				(name "Resistance")
-				(value "0Ω")
+				(value "33Ω")
 			)
 			(property
 				(name "Power(Watts)")
@@ -15015,7 +15358,7 @@
 			)
 			(property
 				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
+				(value "±100ppm/°C")
 			)
 			(property
 				(name "Sheetname")
@@ -15033,311 +15376,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f063a4a2-3b0e-4e8d-a93c-deddb7a942dd")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R68")
-			(value "0Ω")
-			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			(fields
-				(field
-					(name "LCSC") "C17168")
-				(field
-					(name "Stock") "9510686")
-				(field
-					(name "Price") "0.004USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Resistors,Chip Resistor - Surface Mount")
-				(field
-					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
-				(field
-					(name "Part") "0402WGF0000TCE")
-				(field
-					(name "Resistance") "0Ω")
-				(field
-					(name "Power(Watts)") "62.5mW")
-				(field
-					(name "Type") "Thick Film Resistors")
-				(field
-					(name "Overload Voltage (Max)") "50V")
-				(field
-					(name "Operating Temperature Range") "-55°C~+155°C")
-				(field
-					(name "Tolerance") "±1%")
-				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
-				(field
-					(name "Footprint") "PCM_JLCPCB:R_0402")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(libsource
-				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(property
-				(name "LCSC")
-				(value "C17168")
-			)
-			(property
-				(name "Stock")
-				(value "9510686")
-			)
-			(property
-				(name "Price")
-				(value "0.004USD")
-			)
-			(property
-				(name "Process")
-				(value "SMT")
-			)
-			(property
-				(name "Minimum Qty")
-				(value "20")
-			)
-			(property
-				(name "Attrition Qty")
-				(value "10")
-			)
-			(property
-				(name "Class")
-				(value "Basic Component")
-			)
-			(property
-				(name "Category")
-				(value "Resistors,Chip Resistor - Surface Mount")
-			)
-			(property
-				(name "Manufacturer")
-				(value "UNI-ROYAL(Uniroyal Elec)")
-			)
-			(property
-				(name "Part")
-				(value "0402WGF0000TCE")
-			)
-			(property
-				(name "Resistance")
-				(value "0Ω")
-			)
-			(property
-				(name "Power(Watts)")
-				(value "62.5mW")
-			)
-			(property
-				(name "Type")
-				(value "Thick Film Resistors")
-			)
-			(property
-				(name "Overload Voltage (Max)")
-				(value "50V")
-			)
-			(property
-				(name "Operating Temperature Range")
-				(value "-55°C~+155°C")
-			)
-			(property
-				(name "Tolerance")
-				(value "±1%")
-			)
-			(property
-				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
-			)
-			(property
-				(name "Sheetname")
-				(value "LoRa-device")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LoRa-device.kicad_sch")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9d92123e-aa9c-4b8c-ae20-f9457f62f3b3")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R69")
-			(value "0Ω")
-			(footprint "PCM_JLCPCB:R_0402")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-			(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			(fields
-				(field
-					(name "LCSC") "C17168")
-				(field
-					(name "Stock") "9510686")
-				(field
-					(name "Price") "0.004USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Resistors,Chip Resistor - Surface Mount")
-				(field
-					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
-				(field
-					(name "Part") "0402WGF0000TCE")
-				(field
-					(name "Resistance") "0Ω")
-				(field
-					(name "Power(Watts)") "62.5mW")
-				(field
-					(name "Type") "Thick Film Resistors")
-				(field
-					(name "Overload Voltage (Max)") "50V")
-				(field
-					(name "Operating Temperature Range") "-55°C~+155°C")
-				(field
-					(name "Tolerance") "±1%")
-				(field
-					(name "Temperature Coefficient") "±800ppm/°C")
-				(field
-					(name "Footprint") "PCM_JLCPCB:R_0402")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf")
-				(field
-					(name "Description") "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(libsource
-				(lib "PCM_JLCPCB-Resistors")
-				(part "0402,0Ω")
-				(description "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS")
-			)
-			(property
-				(name "LCSC")
-				(value "C17168")
-			)
-			(property
-				(name "Stock")
-				(value "9510686")
-			)
-			(property
-				(name "Price")
-				(value "0.004USD")
-			)
-			(property
-				(name "Process")
-				(value "SMT")
-			)
-			(property
-				(name "Minimum Qty")
-				(value "20")
-			)
-			(property
-				(name "Attrition Qty")
-				(value "10")
-			)
-			(property
-				(name "Class")
-				(value "Basic Component")
-			)
-			(property
-				(name "Category")
-				(value "Resistors,Chip Resistor - Surface Mount")
-			)
-			(property
-				(name "Manufacturer")
-				(value "UNI-ROYAL(Uniroyal Elec)")
-			)
-			(property
-				(name "Part")
-				(value "0402WGF0000TCE")
-			)
-			(property
-				(name "Resistance")
-				(value "0Ω")
-			)
-			(property
-				(name "Power(Watts)")
-				(value "62.5mW")
-			)
-			(property
-				(name "Type")
-				(value "Thick Film Resistors")
-			)
-			(property
-				(name "Overload Voltage (Max)")
-				(value "50V")
-			)
-			(property
-				(name "Operating Temperature Range")
-				(value "-55°C~+155°C")
-			)
-			(property
-				(name "Tolerance")
-				(value "±1%")
-			)
-			(property
-				(name "Temperature Coefficient")
-				(value "±800ppm/°C")
-			)
-			(property
-				(name "Sheetname")
-				(value "LoRa-device")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LoRa-device.kicad_sch")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "4e6f6a57-4a79-4abd-bce6-fe9633ec20c7")
+			(tstamps "024f4582-1aca-41f1-abc1-07bc6f8194f0")
 			(units
 				(unit
 					(name "A")
@@ -16017,13 +16056,15 @@
 		(comp
 			(ref "SW1")
 			(value "EVQPUC02K")
-			(footprint "LoRa_library_modular:SW-SMD_EVQPUD02K")
+			(footprint "Mercurio:SW-SMD_EVQPUD02K")
 			(datasheet "https://item.szlcsc.com/364193.html")
 			(fields
 				(field
 					(name "LCSC") "C79174")
 				(field
-					(name "Footprint") "LoRa_library_modular:SW-SMD_EVQPUD02K")
+					(name "Part") "EVQPUC02K")
+				(field
+					(name "Footprint") "Mercurio:SW-SMD_EVQPUD02K")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/364193.html")
 				(field
@@ -16031,13 +16072,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "EVQPUC02K")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C79174")
+			)
+			(property
+				(name "Part")
+				(value "EVQPUC02K")
 			)
 			(property
 				(name "Sheetname")
@@ -16079,13 +16124,15 @@
 		(comp
 			(ref "SW2")
 			(value "EVQPUC02K")
-			(footprint "LoRa_library_modular:SW-SMD_EVQPUD02K")
+			(footprint "Mercurio:SW-SMD_EVQPUD02K")
 			(datasheet "https://item.szlcsc.com/364193.html")
 			(fields
 				(field
 					(name "LCSC") "C79174")
 				(field
-					(name "Footprint") "LoRa_library_modular:SW-SMD_EVQPUD02K")
+					(name "Part") "EVQPUC02K")
+				(field
+					(name "Footprint") "Mercurio:SW-SMD_EVQPUD02K")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/364193.html")
 				(field
@@ -16093,13 +16140,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "EVQPUC02K")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C79174")
+			)
+			(property
+				(name "Part")
+				(value "EVQPUC02K")
 			)
 			(property
 				(name "Sheetname")
@@ -16141,13 +16192,15 @@
 		(comp
 			(ref "U3")
 			(value "ICS-43432")
-			(footprint "LoRa_library_modular:SENSOR-SMD_ICS-43432")
+			(footprint "Mercurio:SENSOR-SMD_ICS-43432")
 			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
 			(fields
 				(field
 					(name "LCSC") "C574021")
 				(field
-					(name "Footprint") "LoRa_library_modular:SENSOR-SMD_ICS-43432")
+					(name "Part") "ICS-43432")
+				(field
+					(name "Footprint") "Mercurio:SENSOR-SMD_ICS-43432")
 				(field
 					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
 				(field
@@ -16155,13 +16208,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "ICS-43432")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C574021")
+			)
+			(property
+				(name "Part")
+				(value "ICS-43432")
 			)
 			(property
 				(name "Sheetname")
@@ -16212,13 +16269,15 @@
 		(comp
 			(ref "U4")
 			(value "ESP32-S3-WROOM-1(N16R8)")
-			(footprint "LoRa_library_modular:WIRELM-SMD_ESP32-S3-WROOM-1")
+			(footprint "Mercurio:WIRELM-SMD_ESP32-S3-WROOM-1")
 			(datasheet "https://www.mouser.cn/datasheet/2/891/Espressif_ESP32_S3_WROOM_1_1U_Preliminary-2530171.pdf")
 			(fields
 				(field
 					(name "LCSC") "C2913202")
 				(field
-					(name "Footprint") "LoRa_library_modular:WIRELM-SMD_ESP32-S3-WROOM-1")
+					(name "Part") "ESP32-S3-WROOM-1(N16R8)")
+				(field
+					(name "Footprint") "Mercurio:WIRELM-SMD_ESP32-S3-WROOM-1")
 				(field
 					(name "Datasheet") "https://www.mouser.cn/datasheet/2/891/Espressif_ESP32_S3_WROOM_1_1U_Preliminary-2530171.pdf")
 				(field
@@ -16226,7 +16285,7 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library_modular")
+				(lib "Mercurio")
 				(part "ESP32-S3-WROOM-1(N16R8)")
 				(description "")
 			)
@@ -16235,15 +16294,16 @@
 				(value "C2913202")
 			)
 			(property
+				(name "Part")
+				(value "ESP32-S3-WROOM-1(N16R8)")
+			)
+			(property
 				(name "Sheetname")
 				(value "LoRa-device")
 			)
 			(property
 				(name "Sheetfile")
 				(value "LoRa-device.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
 			)
 			(property
 				(name "ki_keywords")
@@ -16388,13 +16448,15 @@
 		(comp
 			(ref "U5")
 			(value "SK-12D02-VG5")
-			(footprint "LoRa_library_modular:SW-TH_SK-12D02-VG5")
+			(footprint "Mercurio:SW-TH_SK-12D02-VG5")
 			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
 			(fields
 				(field
 					(name "LCSC") "C136722")
 				(field
-					(name "Footprint") "LoRa_library_modular:SW-TH_SK-12D02-VG5")
+					(name "Part") "SK-12D02-VG5")
+				(field
+					(name "Footprint") "Mercurio:SW-TH_SK-12D02-VG5")
 				(field
 					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
 				(field
@@ -16402,13 +16464,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "SK-12D02-VG5")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C136722")
+			)
+			(property
+				(name "Part")
+				(value "SK-12D02-VG5")
 			)
 			(property
 				(name "Sheetname")
@@ -16460,6 +16526,8 @@
 				(field
 					(name "LCSC") "C15999")
 				(field
+					(name "Part") "USBLC6-2P6")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-666")
 				(field
 					(name "Datasheet") "https://www.st.com/resource/en/datasheet/usblc6-2.pdf")
@@ -16474,6 +16542,10 @@
 			(property
 				(name "LCSC")
 				(value "C15999")
+			)
+			(property
+				(name "Part")
+				(value "USBLC6-2P6")
 			)
 			(property
 				(name "Sheetname")
@@ -16525,13 +16597,15 @@
 		(comp
 			(ref "U7")
 			(value "BQ25185DLHR")
-			(footprint "LoRa_library_modular:WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A")
+			(footprint "Mercurio:WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A")
 			(datasheet "https://www.semiee.com/file2/902df9b9e499cc810d9e040af22d1f6e/TI/TI-BQ25185.pdf")
 			(fields
 				(field
 					(name "LCSC") "C19725033")
 				(field
-					(name "Footprint") "LoRa_library_modular:WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A")
+					(name "Part") "BQ25185DLHR")
+				(field
+					(name "Footprint") "Mercurio:WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A")
 				(field
 					(name "Datasheet") "https://www.semiee.com/file2/902df9b9e499cc810d9e040af22d1f6e/TI/TI-BQ25185.pdf")
 				(field
@@ -16539,13 +16613,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "BQ25185DLHR")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C19725033")
+			)
+			(property
+				(name "Part")
+				(value "BQ25185DLHR")
 			)
 			(property
 				(name "Sheetname")
@@ -16613,7 +16691,7 @@
 			(description "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, Active Low, SOT23-6")
 			(fields
 				(field
-					(name "MNF PART NUMBER") "C3235537")
+					(name "Part") "TPS22917LDBVR")
 				(field
 					(name "LCSC") "C3235537")
 				(field
@@ -16629,8 +16707,8 @@
 				(description "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, Active Low, SOT23-6")
 			)
 			(property
-				(name "MNF PART NUMBER")
-				(value "C3235537")
+				(name "Part")
+				(value "TPS22917LDBVR")
 			)
 			(property
 				(name "LCSC")
@@ -16686,13 +16764,15 @@
 		(comp
 			(ref "U9")
 			(value "MHCI04020-2R2M-R8")
-			(footprint "LoRa_library_modular:IND-SMD_L4.6-W4.1")
+			(footprint "Mercurio:IND-SMD_L4.6-W4.1")
 			(datasheet "https://item.szlcsc.com/309233.html")
 			(fields
 				(field
 					(name "LCSC") "C142096")
 				(field
-					(name "Footprint") "LoRa_library_modular:IND-SMD_L4.6-W4.1")
+					(name "Part") "MHCI04020-2R2M-R8")
+				(field
+					(name "Footprint") "Mercurio:IND-SMD_L4.6-W4.1")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/309233.html")
 				(field
@@ -16707,6 +16787,10 @@
 			(property
 				(name "LCSC")
 				(value "C142096")
+			)
+			(property
+				(name "Part")
+				(value "MHCI04020-2R2M-R8")
 			)
 			(property
 				(name "Sheetname")
@@ -16910,6 +16994,8 @@
 				(field
 					(name "LCSC") "C141836")
 				(field
+					(name "Part") "TLV62569DBVR")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tlv62569.pdf")
@@ -16924,6 +17010,10 @@
 			(property
 				(name "LCSC")
 				(value "C141836")
+			)
+			(property
+				(name "Part")
+				(value "TLV62569DBVR")
 			)
 			(property
 				(name "Sheetname")
@@ -16979,6 +17069,8 @@
 				(field
 					(name "LCSC") "C629439")
 				(field
+					(name "Part") "MCP23017T-E/ML")
+				(field
 					(name "Footprint") "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm")
 				(field
 					(name "Datasheet") "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf")
@@ -16993,6 +17085,10 @@
 			(property
 				(name "LCSC")
 				(value "C629439")
+			)
+			(property
+				(name "Part")
+				(value "MCP23017T-E/ML")
 			)
 			(property
 				(name "Sheetname")
@@ -17113,13 +17209,15 @@
 		(comp
 			(ref "U15")
 			(value "HJ-SMA275")
-			(footprint "LoRa_library_modular:SMA-SMD_BWSMA-KE-P001")
+			(footprint "Mercurio:SMA-SMD_BWSMA-KE-P001")
 			(datasheet "https://item.szlcsc.com/508499.html")
 			(fields
 				(field
 					(name "LCSC") "C2693809")
 				(field
-					(name "Footprint") "LoRa_library_modular:SMA-SMD_BWSMA-KE-P001")
+					(name "Part") "HJ-SMA275")
+				(field
+					(name "Footprint") "Mercurio:SMA-SMD_BWSMA-KE-P001")
 				(field
 					(name "Datasheet") "https://item.szlcsc.com/508499.html")
 				(field
@@ -17127,13 +17225,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "HJ-SMA275")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C2693809")
+			)
+			(property
+				(name "Part")
+				(value "HJ-SMA275")
 			)
 			(property
 				(name "Sheetname")
@@ -17181,13 +17283,15 @@
 		(comp
 			(ref "U17")
 			(value "RA-01SH-P")
-			(footprint "LoRa_library_modular:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
+			(footprint "Mercurio:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
 			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
 			(fields
 				(field
 					(name "LCSC") "C42420049")
 				(field
-					(name "Footprint") "LoRa_library_modular:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
+					(name "Part") "Ra-01SH-P")
+				(field
+					(name "Footprint") "Mercurio:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
 				(field
 					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
 				(field
@@ -17195,13 +17299,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "RA-01SH-P")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C42420049")
+			)
+			(property
+				(name "Part")
+				(value "Ra-01SH-P")
 			)
 			(property
 				(name "Sheetname")
@@ -17282,13 +17390,15 @@
 		(comp
 			(ref "U18")
 			(value "L76KB-A58")
-			(footprint "LoRa_library_modular:GPSM-SMD_18P-L10.1-W9.7-P1.10")
+			(footprint "Mercurio:GPSM-SMD_18P-L10.1-W9.7-P1.10")
 			(datasheet "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
 			(fields
 				(field
 					(name "LCSC") "C2916234")
 				(field
-					(name "Footprint") "LoRa_library_modular:GPSM-SMD_18P-L10.1-W9.7-P1.10")
+					(name "Part") "L76KB-A58")
+				(field
+					(name "Footprint") "Mercurio:GPSM-SMD_18P-L10.1-W9.7-P1.10")
 				(field
 					(name "Datasheet") "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
 				(field
@@ -17296,13 +17406,17 @@
 				)
 			)
 			(libsource
-				(lib "LoRa_library")
+				(lib "Mercurio")
 				(part "L76KB-A58")
 				(description "")
 			)
 			(property
 				(name "LCSC")
 				(value "C2916234")
+			)
+			(property
+				(name "Part")
+				(value "L76KB-A58")
 			)
 			(property
 				(name "Sheetname")
@@ -17393,6 +17507,8 @@
 				(field
 					(name "LCSC") "C910544")
 				(field
+					(name "Part") "MAX98357AETE+T")
+				(field
 					(name "Footprint") "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf")
@@ -17407,6 +17523,10 @@
 			(property
 				(name "LCSC")
 				(value "C910544")
+			)
+			(property
+				(name "Part")
+				(value "MAX98357AETE+T")
 			)
 			(property
 				(name "Sheetname")
@@ -17816,96 +17936,6 @@
 				(pin
 					(num "14")
 					(name "Pin_14")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Connector")
-			(part "Micro_SD_Card_Det1")
-			(description "Micro SD Card Socket with one card detection pin")
-			(docs "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
-			(footprints
-				(fp "microSD*")
-			)
-			(fields
-				(field
-					(name "Reference") "J1")
-				(field
-					(name "Value") "Micro_SD_Card_Det1")
-				(field
-					(name "Footprint") "my_footprints:TF-SMD_TF-01A")
-				(field
-					(name "Datasheet") "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
-				(field
-					(name "Description") "Micro SD Card Socket with one card detection pin")
-				(field
-					(name "LCSC") "C91145")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "DAT2")
-					(type "bidirectional")
-				)
-				(pin
-					(num "2")
-					(name "DAT3/CD")
-					(type "bidirectional")
-				)
-				(pin
-					(num "3")
-					(name "CMD")
-					(type "input")
-				)
-				(pin
-					(num "4")
-					(name "VDD")
-					(type "power_in")
-				)
-				(pin
-					(num "5")
-					(name "CLK")
-					(type "input")
-				)
-				(pin
-					(num "6")
-					(name "VSS")
-					(type "power_in")
-				)
-				(pin
-					(num "7")
-					(name "DAT0")
-					(type "bidirectional")
-				)
-				(pin
-					(num "8")
-					(name "DAT1")
-					(type "bidirectional")
-				)
-				(pin
-					(num "9")
-					(name "DET")
-					(type "passive")
-				)
-				(pin
-					(num "10")
-					(name "SHIELD")
-					(type "passive")
-				)
-				(pin
-					(num "11")
-					(name "SHIELD")
-					(type "passive")
-				)
-				(pin
-					(num "12")
-					(name "SHIELD")
-					(type "passive")
-				)
-				(pin
-					(num "13")
-					(name "SHIELD")
 					(type "passive")
 				)
 			)
@@ -18327,6 +18357,60 @@
 		)
 		(libpart
 			(lib "LoRa_library")
+			(part "MHCI04020-2R2M-R8")
+			(docs "https://item.szlcsc.com/309233.html")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MHCI04020-2R2M-R8")
+				(field
+					(name "Footprint") "footprint:IND-SMD_L4.6-W4.1")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/309233.html")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "LCSC") "C142096")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Mercurio")
 			(part "1_25T-1-2A")
 			(docs "https://item.szlcsc.com/11365.html")
 			(fields
@@ -18358,7 +18442,7 @@
 			)
 		)
 		(libpart
-			(lib "LoRa_library")
+			(lib "Mercurio")
 			(part "BQ25185DLHR")
 			(docs "https://www.semiee.com/file2/902df9b9e499cc810d9e040af22d1f6e/TI/TI-BQ25185.pdf")
 			(fields
@@ -18435,451 +18519,7 @@
 			)
 		)
 		(libpart
-			(lib "LoRa_library")
-			(part "EVQPUC02K")
-			(docs "https://item.szlcsc.com/364193.html")
-			(fields
-				(field
-					(name "Reference") "SW")
-				(field
-					(name "Value") "EVQPUC02K")
-				(field
-					(name "Footprint") "footprint:SW-SMD_EVQPUD02K")
-				(field
-					(name "Datasheet") "https://item.szlcsc.com/364193.html")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C79174")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "3")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "4")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "HJ-SMA275")
-			(docs "https://item.szlcsc.com/508499.html")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "HJ-SMA275")
-				(field
-					(name "Footprint") "footprint:SMA-SMD_BWSMA-KE-P001")
-				(field
-					(name "Datasheet") "https://item.szlcsc.com/508499.html")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C2693809")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "3")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "4")
-					(type "unspecified")
-				)
-				(pin
-					(num "5")
-					(name "5")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "ICS-43432")
-			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "ICS-43432")
-				(field
-					(name "Footprint") "footprint:SENSOR-SMD_ICS-43432")
-				(field
-					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C574021")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "LR")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "CONFIG")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "VDD")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "5")
-					(name "WS")
-					(type "unspecified")
-				)
-				(pin
-					(num "6")
-					(name "SCK")
-					(type "unspecified")
-				)
-				(pin
-					(num "7")
-					(name "SD")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "L76KB-A58")
-			(docs "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "L76KB-A58")
-				(field
-					(name "Footprint") "footprint:GPSM-SMD_18P-L10.1-W9.7-P1.10")
-				(field
-					(name "Datasheet") "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C2916234")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "TXD")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "RXD")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "1PPS")
-					(type "unspecified")
-				)
-				(pin
-					(num "5")
-					(name "WAKE_UP")
-					(type "unspecified")
-				)
-				(pin
-					(num "6")
-					(name "V_BCKP")
-					(type "unspecified")
-				)
-				(pin
-					(num "7")
-					(name "RESERVED")
-					(type "unspecified")
-				)
-				(pin
-					(num "8")
-					(name "VCC")
-					(type "unspecified")
-				)
-				(pin
-					(num "9")
-					(name "RESET_N")
-					(type "unspecified")
-				)
-				(pin
-					(num "10")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "11")
-					(name "RF_IN")
-					(type "unspecified")
-				)
-				(pin
-					(num "12")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "13")
-					(name "ANTON")
-					(type "unspecified")
-				)
-				(pin
-					(num "14")
-					(name "VDD_RF")
-					(type "unspecified")
-				)
-				(pin
-					(num "15")
-					(name "RESERVED")
-					(type "unspecified")
-				)
-				(pin
-					(num "16")
-					(name "RESERVED")
-					(type "unspecified")
-				)
-				(pin
-					(num "17")
-					(name "RESERVED")
-					(type "unspecified")
-				)
-				(pin
-					(num "18")
-					(name "SET")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "MHCI04020-2R2M-R8")
-			(docs "https://item.szlcsc.com/309233.html")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "MHCI04020-2R2M-R8")
-				(field
-					(name "Footprint") "footprint:IND-SMD_L4.6-W4.1")
-				(field
-					(name "Datasheet") "https://item.szlcsc.com/309233.html")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C142096")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "RA-01SH-P")
-			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
-			(fields
-				(field
-					(name "Reference") "U17")
-				(field
-					(name "Value") "RA-01SH-P")
-				(field
-					(name "Footprint") "LoRa_library:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
-				(field
-					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C42420049")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "ANT")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "3V3")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "RESET")
-					(type "unspecified")
-				)
-				(pin
-					(num "5")
-					(name "VCCPA")
-					(type "unspecified")
-				)
-				(pin
-					(num "6")
-					(name "DIO1")
-					(type "unspecified")
-				)
-				(pin
-					(num "7")
-					(name "DIO2")
-					(type "unspecified")
-				)
-				(pin
-					(num "8")
-					(name "DIO3")
-					(type "unspecified")
-				)
-				(pin
-					(num "9")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "10")
-					(name "BUSY")
-					(type "unspecified")
-				)
-				(pin
-					(num "11")
-					(name "RF_EN")
-					(type "unspecified")
-				)
-				(pin
-					(num "12")
-					(name "SCK")
-					(type "unspecified")
-				)
-				(pin
-					(num "13")
-					(name "MISO")
-					(type "unspecified")
-				)
-				(pin
-					(num "14")
-					(name "MOSI")
-					(type "unspecified")
-				)
-				(pin
-					(num "15")
-					(name "NSS")
-					(type "unspecified")
-				)
-				(pin
-					(num "16")
-					(name "GND")
-					(type "unspecified")
-				)
-				(pin
-					(num "17")
-					(name "GND")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library")
-			(part "SK-12D02-VG5")
-			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "SK-12D02-VG5")
-				(field
-					(name "Footprint") "footprint:SW-TH_SK-12D02-VG5")
-				(field
-					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C136722")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "3")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "4")
-					(type "unspecified")
-				)
-				(pin
-					(num "5")
-					(name "5")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "LoRa_library_modular")
+			(lib "Mercurio")
 			(part "ESP32-S3-WROOM-1(N16R8)")
 			(docs "https://www.mouser.cn/datasheet/2/891/Espressif_ESP32_S3_WROOM_1_1U_Preliminary-2530171.pdf")
 			(fields
@@ -19106,25 +18746,505 @@
 			)
 		)
 		(libpart
-			(lib "Mechanical")
-			(part "MountingHole")
-			(description "Mounting Hole without connection")
+			(lib "Mercurio")
+			(part "EVQPUC02K")
+			(docs "https://item.szlcsc.com/364193.html")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "EVQPUC02K")
+				(field
+					(name "Footprint") "footprint:SW-SMD_EVQPUD02K")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/364193.html")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "LCSC") "C79174")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "HJ-SMA275")
+			(docs "https://item.szlcsc.com/508499.html")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "HJ-SMA275")
+				(field
+					(name "Footprint") "footprint:SMA-SMD_BWSMA-KE-P001")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/508499.html")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "LCSC") "C2693809")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "ICS-43432")
+			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ICS-43432")
+				(field
+					(name "Footprint") "footprint:SENSOR-SMD_ICS-43432")
+				(field
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20200601/C574021_122940D3829D056FB6264B5378355D36.pdf")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "LCSC") "C574021")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "LR")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "CONFIG")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "VDD")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "WS")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "SCK")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "SD")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "L76KB-A58")
+			(docs "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L76KB-A58")
+				(field
+					(name "Footprint") "footprint:GPSM-SMD_18P-L10.1-W9.7-P1.10")
+				(field
+					(name "Datasheet") "https://img.jlc.com/pdf/applyPasteComponent/2021-06-02/273788A/075a5f6414424bcc9e88e6309d1cf842/Quectel_L76K_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C.pdf")
+				(field
+					(name "Description")
+				)
+				(field
+					(name "LCSC") "C2916234")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "TXD")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "RXD")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "1PPS")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "WAKE_UP")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "V_BCKP")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "RESERVED")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "RESET_N")
+					(type "unspecified")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "11")
+					(name "RF_IN")
+					(type "unspecified")
+				)
+				(pin
+					(num "12")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "13")
+					(name "ANTON")
+					(type "unspecified")
+				)
+				(pin
+					(num "14")
+					(name "VDD_RF")
+					(type "unspecified")
+				)
+				(pin
+					(num "15")
+					(name "RESERVED")
+					(type "unspecified")
+				)
+				(pin
+					(num "16")
+					(name "RESERVED")
+					(type "unspecified")
+				)
+				(pin
+					(num "17")
+					(name "RESERVED")
+					(type "unspecified")
+				)
+				(pin
+					(num "18")
+					(name "SET")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "Micro_SD_Card_Det1")
+			(description "Micro SD Card Socket with one card detection pin")
+			(docs "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
 			(footprints
-				(fp "MountingHole*")
+				(fp "microSD*")
 			)
 			(fields
 				(field
-					(name "Reference") "H")
+					(name "Reference") "J1")
 				(field
-					(name "Value") "MountingHole")
+					(name "Value") "Micro_SD_Card_Det1")
 				(field
-					(name "Footprint")
+					(name "Footprint") "my_footprints:TF-SMD_TF-01A")
+				(field
+					(name "Datasheet") "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf")
+				(field
+					(name "Description") "Micro SD Card Socket with one card detection pin")
+				(field
+					(name "LCSC") "C91145")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "DAT2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "DAT3/CD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "CMD")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "CLK")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "DAT0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "DAT1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "DET")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "RA-01SH-P")
+			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
+			(fields
+				(field
+					(name "Reference") "U17")
+				(field
+					(name "Value") "RA-01SH-P")
+				(field
+					(name "Footprint") "LoRa_library:COMM-SMD_17P-L17.0-W16.0-P2.00_RA-01S-P")
+				(field
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20241223/8661B3513FDF8F55401238C2DD508109.pdf")
+				(field
+					(name "Description")
 				)
 				(field
-					(name "Datasheet")
+					(name "LCSC") "C42420049")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "ANT")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "3V3")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "RESET")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "VCCPA")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "DIO1")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "DIO2")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "DIO3")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "10")
+					(name "BUSY")
+					(type "unspecified")
+				)
+				(pin
+					(num "11")
+					(name "RF_EN")
+					(type "unspecified")
+				)
+				(pin
+					(num "12")
+					(name "SCK")
+					(type "unspecified")
+				)
+				(pin
+					(num "13")
+					(name "MISO")
+					(type "unspecified")
+				)
+				(pin
+					(num "14")
+					(name "MOSI")
+					(type "unspecified")
+				)
+				(pin
+					(num "15")
+					(name "NSS")
+					(type "unspecified")
+				)
+				(pin
+					(num "16")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "17")
+					(name "GND")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Mercurio")
+			(part "SK-12D02-VG5")
+			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SK-12D02-VG5")
+				(field
+					(name "Footprint") "footprint:SW-TH_SK-12D02-VG5")
+				(field
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20180115/C136722_15160149641191269411.pdf")
+				(field
+					(name "Description")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "LCSC") "C136722")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "unspecified")
+				)
 			)
 		)
 		(libpart
@@ -19660,67 +19780,6 @@
 					(name "Tolerance") "±20%")
 				(field
 					(name "Capacitance") "4.7uF")
-				(field
-					(name "Temperature Coefficient") "X5R")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "PCM_JLCPCB-Capacitors")
-			(part "0603,10uF")
-			(description "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf")
-			(footprints
-				(fp "C_*")
-			)
-			(fields
-				(field
-					(name "Reference") "C")
-				(field
-					(name "Value") "10uF")
-				(field
-					(name "Footprint") "PCM_JLCPCB:C_0603")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf")
-				(field
-					(name "Description") "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-				(field
-					(name "LCSC") "C19702")
-				(field
-					(name "Stock") "9881407")
-				(field
-					(name "Price") "0.009USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
-				(field
-					(name "Manufacturer") "Samsung Electro-Mechanics")
-				(field
-					(name "Part") "CL10A106KP8NNNC")
-				(field
-					(name "Voltage Rated") "10V")
-				(field
-					(name "Tolerance") "±10%")
-				(field
-					(name "Capacitance") "10uF")
 				(field
 					(name "Temperature Coefficient") "X5R")
 			)
@@ -21440,6 +21499,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C37")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C39")
 				(pin "1")
 				(pintype "passive")
@@ -21521,11 +21585,6 @@
 			)
 			(node
 				(ref "C54")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C55")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -22009,26 +22068,9 @@
 			(name "GPA5")
 			(class "Default")
 			(node
-				(ref "SW1")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
-			)
-			(node
 				(ref "U14")
 				(pin "22")
 				(pinfunction "GPA5_22")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "9")
-			(name "GPA6")
-			(class "Default")
-			(node
-				(ref "U14")
-				(pin "23")
-				(pinfunction "GPA6_23")
 				(pintype "bidirectional")
 			)
 			(node
@@ -22039,8 +22081,25 @@
 			)
 		)
 		(net
+			(code "9")
+			(name "GPA6")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U14")
+				(pin "23")
+				(pinfunction "GPA6_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
 			(code "10")
-			(name "GPB2")
+			(name "GPB0")
 			(class "Default")
 			(node
 				(ref "SW2")
@@ -22050,8 +22109,8 @@
 			)
 			(node
 				(ref "U14")
-				(pin "27")
-				(pinfunction "GPB2_27")
+				(pin "25")
+				(pinfunction "GPB0_25")
 				(pintype "bidirectional")
 			)
 		)
@@ -22110,8 +22169,8 @@
 			(class "Default")
 			(node
 				(ref "U14")
-				(pin "28")
-				(pinfunction "GPB3_28")
+				(pin "21")
+				(pinfunction "GPA4_21")
 				(pintype "bidirectional")
 			)
 			(node
@@ -22127,8 +22186,8 @@
 			(class "Default")
 			(node
 				(ref "U14")
-				(pin "20")
-				(pinfunction "GPA3_20")
+				(pin "17")
+				(pinfunction "GPA0_17")
 				(pintype "bidirectional")
 			)
 			(node
@@ -22176,8 +22235,8 @@
 			(class "Default")
 			(node
 				(ref "U14")
-				(pin "17")
-				(pinfunction "GPA0_17")
+				(pin "20")
+				(pinfunction "GPA3_20")
 				(pintype "bidirectional")
 			)
 			(node
@@ -22466,8 +22525,8 @@
 			)
 			(node
 				(ref "U14")
-				(pin "25")
-				(pinfunction "GPB0_25")
+				(pin "27")
+				(pinfunction "GPB2_27")
 				(pintype "bidirectional")
 			)
 		)
@@ -22515,12 +22574,12 @@
 			(name "MISOA")
 			(class "Default")
 			(node
-				(ref "R58")
-				(pin "2")
+				(ref "R55")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R59")
+				(ref "R57")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -22541,13 +22600,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R60")
+				(ref "R56")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R9")
-				(pin "2")
+				(ref "R58")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -22568,7 +22627,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R69")
+				(ref "R59")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -22604,7 +22663,7 @@
 		(net
 			(code "38")
 			(name "Net-(C27-Pad1)")
-			(class "Default")
+			(class "RF,Default")
 			(node
 				(ref "C27")
 				(pin "1")
@@ -22698,7 +22757,7 @@
 		(net
 			(code "43")
 			(name "Net-(DNP4-Pad1)")
-			(class "Default")
+			(class "RF,Default")
 			(node
 				(ref "DNP4")
 				(pin "1")
@@ -22727,7 +22786,7 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "R60")
+				(ref "R58")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -22885,8 +22944,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R9")
-				(pin "1")
+				(ref "R56")
+				(pin "2")
 				(pintype "passive")
 			)
 		)
@@ -22901,15 +22960,15 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R58")
-				(pin "1")
+				(ref "R55")
+				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "55")
 			(name "Net-(J8-In)")
-			(class "Default")
+			(class "RF,Default")
 			(node
 				(ref "C27")
 				(pin "2")
@@ -23019,7 +23078,7 @@
 			(name "Net-(U4-IO14)")
 			(class "Default")
 			(node
-				(ref "R66")
+				(ref "R65")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -23035,7 +23094,7 @@
 			(name "Net-(U4-IO38)")
 			(class "Default")
 			(node
-				(ref "R68")
+				(ref "R60")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -23051,7 +23110,7 @@
 			(name "Net-(U4-IO39)")
 			(class "Default")
 			(node
-				(ref "R69")
+				(ref "R59")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -23290,7 +23349,7 @@
 		(net
 			(code "76")
 			(name "Net-(U17-ANT)")
-			(class "Default")
+			(class "RF,Default")
 			(node
 				(ref "DNP2")
 				(pin "1")
@@ -23361,7 +23420,7 @@
 			(name "Net-(U17-MISO)")
 			(class "Default")
 			(node
-				(ref "R59")
+				(ref "R57")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -23375,7 +23434,7 @@
 		(net
 			(code "81")
 			(name "Net-(U18-RF_IN)")
-			(class "Default")
+			(class "RF,Default")
 			(node
 				(ref "DNP6")
 				(pin "1")
@@ -23452,7 +23511,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R68")
+				(ref "R60")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -23480,7 +23539,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R66")
+				(ref "R65")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -23739,6 +23798,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C37")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C39")
 				(pin "2")
 				(pintype "passive")
@@ -23780,11 +23844,6 @@
 			)
 			(node
 				(ref "C51")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C55")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -24194,17 +24253,6 @@
 		)
 		(net
 			(code "113")
-			(name "unconnected-(U14-GPA4-Pad21)")
-			(class "Default")
-			(node
-				(ref "U14")
-				(pin "21")
-				(pinfunction "GPA4_21")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "114")
 			(name "unconnected-(U14-GPA7-Pad24)")
 			(class "Default")
 			(node
@@ -24212,6 +24260,17 @@
 				(pin "24")
 				(pinfunction "GPA7_24")
 				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "114")
+			(name "unconnected-(U14-GPB3-Pad28)")
+			(class "Default")
+			(node
+				(ref "U14")
+				(pin "28")
+				(pinfunction "GPB3_28")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
