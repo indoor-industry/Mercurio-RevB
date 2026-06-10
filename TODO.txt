@@ -1,0 +1,6 @@
+If everything else works:
+
+Add module to BOM and have it assembled
+Consider changing MEMS mic depending on performance
+Change external I2C pin header with JST connector (SM04B-SRSS-TB(LF)(SN) LCSC: C160404)
+Not necessary, but could swap positive and negative in both battery and audio out connectors, matches what I have
