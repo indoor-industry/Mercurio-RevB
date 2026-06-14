@@ -1,0 +1,125 @@
+NOTE: ESP32-S3 HAS NO INPUT-ONLY PINS!
+
+ILI9341 SCREEN:
+CS IO10 PULLED HIGH WITH 10K
+RST IO17
+DC IO5
+MOSI MOSIB
+SCK SCKB
+LED IO9
+MISO MISOB
+
+TOUCH CONTROLLER:
+CLK SCKB
+CS IO18 PULLED HIGH WITH 10K
+DIN MOSIB
+DO MISOB
+IRQ IO6
+
+SD CARD CONTROLLER:
+SCK SCKA
+MISO MISOA
+MOSI MOSIA
+CS IO35 PULLED HIGH WITH 10K
+
+BUZZER INPUT (MUST BE SQUARE WAVE):
+IO21 -> IO21
+
+HEADER FOR EXTERNAL PERIPHERALS (SPI AND 12C CAPABILITIES POSSIBLY):
+MISOA
+MOSIA
+SCKA
+IO7
+IO33
+
+TEST POINT:
+TX (U0TXD)
+RX (U0RXD)
+
+MEMORY (Winbond W25Q128JVSIQ):
+CS SPICS0
+CLK SPISCK
+DI SPID
+DO SPIQ
+WP SPIWP
+HOLD/RST SPIHD
+
+BATTERY STATUS INPUT (FROM VOLTAGE DIVIDER):
+IO11/BAT
+
+USB-C RECEPTACLE:
+USB_D-/IO19
+USB_D+/IO20
+
+GPS MODULE (L70-R):
+TXD1 IO42
+RXD1 IO40
+STANDBY IO8
+1PPS NOT CONNECTED
+RESET IO4
+
+LoRa MODULE (AI-THINKER RA-01H):
+MISO MISOA
+MOSI MOSIA
+SCK SCKA
+NSS IO34 PULLED HIGH WITH 10K
+RST IO37
+DIO0 IO2
+DIO1 IO36
+
+SECURE ELEMENT (ATECC608A-SSHDA):
+SCL IO48
+SDA IO47
+
+UNCONNECTED:
+IO3
+SPICS1
+IO45
+IO46
+
+
+MISOA -> MTDI/IO41
+MOSIA -> MTCK/IO39
+SCKA -> IO38
+
+MISOB -> IO12
+MOSIB -> IO13
+SCKB -> IO14
+
+
+IO0 is pulled high and connected to a FLASH button to ground for flashing.
+EN is connected to CHIP_PU, pulled high and connected to a button RESET that can pull it down to GND.
+VDDSPI is decoupled to GND trough a 0.1uF and a 1uF capacitors.
+XTAL_32_P and XTAL_32_N are tied to a 32.768kHz crystal.
+XTAL_P and XTAL_N are connected to a 40MHz crystal.
+IO1 is connected to an LED.
+
+
+LOAD SWITCH TPS22917LDBV
+BATTERY CHARGE REGULATOR TP4055
+VOLTAGE REGULATOR AP63203WU
+BATTERY/USB POWER MUX TPS2116DRL
+
+ANTENNA CONNECTIONS:
+For the PCB antenna for the ESP32-S3 WiFi and Bluetooth capabilities:
+
+PIN LNA_IN----4.7nH--------------ANT---GND
+            |         |      |
+        DNP cap     15pF   DNP inductor
+                             |
+                           DNP cap
+
+For the LoRa antenna:
+PIN ANT-------0 Ohm---------ANT---GND
+          |             |
+       DNP cap       DNP cap
+
+For the GPS antenna:
+
+PIN RF_IN---------0 Ohm resistor---------------------------------------ANT---GND
+              |                           |                 |
+           DNP cap                     DNP cap         4.7nH inductor
+                                                            |
+                                                        0Ohm resistor
+                                                            |
+                                                        VCC_RF PIN
