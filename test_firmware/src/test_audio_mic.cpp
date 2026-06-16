@@ -229,12 +229,15 @@ void testAudioMic() {
     tft.setTextDatum(TL_DATUM);
     Menu::drawBackButton();
 
+    Serial.println("--- Microphone ---");
     // ICS-43432 is wired to the I2S left channel (L/R tied low).
     bool ok = AudioI2S::beginRx(SAMPLE_RATE);
+    Serial.printf("I2S init: %s\n", ok ? "OK" : "FAIL");
 
     // SD shares the display's SPI bus - mounted here so a recording can be
     // saved to /recording.wav for off-board verification.
     bool sdOk = SD.begin(PIN_SD_CS, tft.getSPIinstance(), SPI_FREQ_SD);
+    Serial.printf("SD card: %s\n", sdOk ? "OK" : "FAIL");
 
     int y = HDR_H + 8;
     y = Display::infoLine(y, "I2S init:", ok ? "OK" : "FAIL", ok ? COL_OK : COL_ERR);
@@ -277,7 +280,9 @@ void testAudioMic() {
                 break;
             }
             if (ok && recBuf && inBtn(recordBtn, tx, ty)) {
+                Serial.println("Recording 5s...");
                 recordAndPlay(recBuf, statusY, sdOk);
+                Serial.println("Playback done");
             }
         }
 

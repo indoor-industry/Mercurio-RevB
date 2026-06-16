@@ -6,7 +6,6 @@
 TFT_eSPI tft = TFT_eSPI();
 
 namespace {
-    const uint8_t BL_LEDC_CHANNEL = 7;
     const uint32_t BL_LEDC_FREQ = 5000;
     const uint8_t BL_LEDC_RES = 8;
     uint8_t s_brightness = 100;
@@ -24,8 +23,7 @@ void Display::begin(MCP23017 &mcp) {
     tft.setRotation(0); // 240x320 portrait
     tft.fillScreen(COL_BG);
 
-    ledcSetup(BL_LEDC_CHANNEL, BL_LEDC_FREQ, BL_LEDC_RES);
-    ledcAttachPin(PIN_TFT_BL, BL_LEDC_CHANNEL);
+    ledcAttach(PIN_TFT_BL, BL_LEDC_FREQ, BL_LEDC_RES);
 
     Preferences prefs;
     prefs.begin(NVS_NS_DISPLAY, true);
@@ -37,7 +35,7 @@ void Display::begin(MCP23017 &mcp) {
 void Display::setBacklight(uint8_t percent) {
     percent = constrain(percent, 5, 100);
     s_brightness = percent;
-    ledcWrite(BL_LEDC_CHANNEL, (uint32_t)percent * 255 / 100);
+    ledcWrite(PIN_TFT_BL, (uint32_t)percent * 255 / 100);
 }
 
 uint8_t Display::backlight() {

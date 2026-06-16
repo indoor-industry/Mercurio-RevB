@@ -29,6 +29,7 @@ unsigned long g_gpsBootMs = 0;
 
 void setup() {
     Serial.begin(115200);
+    Serial.println("[boot] LoRa test firmware starting");
 
     // Bring the MCP23017 out of its hardware reset before talking to it.
     pinMode(PIN_MCP_RST, OUTPUT);

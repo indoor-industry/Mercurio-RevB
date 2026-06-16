@@ -257,11 +257,14 @@ namespace {
 }
 
 void testSdCard() {
+    Serial.println("--- microSD ---");
     // SD_DET polarity is unconfirmed - shown raw for now (see project plan).
     uint16_t gpio = mcp.readGPIO();
     bool det = MCP23017::gpioBit(gpio, MCP_BIT_SD_DET);
+    Serial.printf("SD_DET: %d\n", det);
 
     bool mounted = SD.begin(PIN_SD_CS, tft.getSPIinstance(), SPI_FREQ_SD);
+    Serial.printf("Mount: %s\n", mounted ? "OK" : "FAIL");
 
     if (!mounted) {
         tft.fillScreen(COL_BG);
@@ -280,6 +283,7 @@ void testSdCard() {
 
     String typeName = cardTypeName(SD.cardType());
     uint32_t sizeMB = (uint32_t)(SD.cardSize() / (1024 * 1024));
+    Serial.printf("Card: %s  Size: %d MB\n", typeName.c_str(), sizeMB);
 
     bool rwOk;
     {
@@ -305,6 +309,7 @@ void testSdCard() {
         rwOk = wrote && readBack == content;
         SD.remove(path);
     }
+    Serial.printf("R/W test: %s\n", rwOk ? "OK" : "FAIL");
 
     // List files in the root directory and offer to view/play known types
     // (.txt, .jpg/.jpeg, .mp3) - lets the user verify their own test media
@@ -325,6 +330,10 @@ void testSdCard() {
             entry = root.openNextFile();
         }
         root.close();
+    }
+    Serial.printf("Files found: %d\n", fileCount);
+    for (int i = 0; i < fileCount; i++) {
+        Serial.printf("  [%d] %s  %d bytes\n", i, files[i].name.c_str(), files[i].size);
     }
 
     TJpgDec.setSwapBytes(true);

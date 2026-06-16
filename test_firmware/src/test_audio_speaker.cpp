@@ -107,8 +107,10 @@ void testAudioSpeaker() {
     tft.setTextDatum(TL_DATUM);
     Menu::drawBackButton();
 
+    Serial.println("--- Speaker ---");
     const uint32_t sampleRate = 16000;
     bool ok = AudioI2S::beginTx(sampleRate);
+    Serial.printf("I2S init: %s\n", ok ? "OK" : "FAIL");
 
     int y = HDR_H + 8;
     y = Display::infoLine(y, "I2S init:", ok ? "OK" : "FAIL", ok ? COL_OK : COL_ERR);
@@ -140,6 +142,7 @@ void testAudioSpeaker() {
                         continue;
                     }
 
+                    Serial.printf("Playing: %s\n", TONES[i].label);
                     tft.fillRect(0, statusY, SCREEN_W, 22, COL_BG);
                     tft.setTextColor(COL_WARN, COL_BG);
                     tft.drawString("Playing...", 8, statusY);
@@ -149,6 +152,7 @@ void testAudioSpeaker() {
                     tft.fillRect(0, statusY, SCREEN_W, 22, COL_BG);
                     tft.setTextColor(COL_OK, COL_BG);
                     tft.drawString("Done", 8, statusY);
+                    Serial.println("Done");
                     break;
                 }
             }

@@ -157,7 +157,9 @@ void testGps() {
     bool ttffLatched = false;
     unsigned long ttffMs = 0;
 
+    Serial.println("--- GPS ---");
     unsigned long lastUpdate = 0;
+    unsigned long lastGpsSerialMs = 0;
 
     while (true) {
         Volume::poll();
@@ -215,6 +217,7 @@ void testGps() {
                     if (!ttffLatched) {
                         ttffMs = millis() - g_gpsBootMs;
                         ttffLatched = true;
+                        Serial.printf("GPS first fix! TTFF: %.1f s\n", ttffMs / 1000.0f);
                     }
                 } else {
                     drawValue(yLat, "-", COL_DIM);
@@ -225,6 +228,20 @@ void testGps() {
 
                 drawValue(yHdop, String(gps.hdop.hdop(), 1), COL_FG);
                 drawValue(yChars, String(gps.charsProcessed()), COL_FG);
+                if (millis() - lastGpsSerialMs >= 5000) {
+                    lastGpsSerialMs = millis();
+                    bool fix = gps.location.isValid();
+                    if (fix) {
+                        Serial.printf("GPS: fix=Yes  sats=%d  lat=%.6f  lon=%.6f  alt=%.1fm  speed=%.1fkm/h  chars=%d\n",
+                                      gps.satellites.value(),
+                                      gps.location.lat(), gps.location.lng(),
+                                      gps.altitude.meters(), gps.speed.kmph(),
+                                      gps.charsProcessed());
+                    } else {
+                        Serial.printf("GPS: fix=No  sats=%d  chars=%d\n",
+                                      gps.satellites.value(), gps.charsProcessed());
+                    }
+                }
 
                 uint16_t gpio = mcp.readGPIO();
                 bool pps = MCP23017::gpioBit(gpio, MCP_BIT_GPS_1PPS);

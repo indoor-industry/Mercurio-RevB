@@ -36,6 +36,28 @@ namespace {
 }
 
 void testSysInfo() {
+    uint8_t mac[6];
+    esp_efuse_mac_get_default(mac);
+    Serial.println("--- System Info ---");
+    Serial.printf("Chip:   %s rev%d, %d cores @ %d MHz\n",
+                  ESP.getChipModel(), ESP.getChipRevision(),
+                  ESP.getChipCores(), ESP.getCpuFreqMHz());
+    Serial.printf("Flash:  %d MB @ %d MHz (%s)\n",
+                  ESP.getFlashChipSize() / (1024 * 1024),
+                  ESP.getFlashChipSpeed() / 1000000,
+                  flashModeName(ESP.getFlashChipMode()));
+    Serial.printf("PSRAM:  %d MB (free %d KB)\n",
+                  ESP.getPsramSize() / (1024 * 1024),
+                  ESP.getFreePsram() / 1024);
+    Serial.printf("Heap:   %d / %d KB (min %d KB)\n",
+                  ESP.getFreeHeap() / 1024,
+                  ESP.getHeapSize() / 1024,
+                  ESP.getMinFreeHeap() / 1024);
+    Serial.printf("MAC:    %02X:%02X:%02X:%02X:%02X:%02X\n",
+                  mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);
+    Serial.printf("IDF:    %s\n", esp_get_idf_version());
+    Serial.printf("Reset:  %s\n", resetReasonName(esp_reset_reason()));
+
     tft.fillScreen(COL_BG);
     Display::drawHeader("System Info");
     tft.setFreeFont(&FreeSans9pt7b);
@@ -56,8 +78,6 @@ void testSysInfo() {
     y = Display::infoLine(y, "Heap:", String(ESP.getFreeHeap() / 1024) + " / " + String(ESP.getHeapSize() / 1024) +
                                " KB (min " + String(ESP.getMinFreeHeap() / 1024) + " KB)", COL_FG);
 
-    uint8_t mac[6];
-    esp_efuse_mac_get_default(mac);
     char macStr[18];
     snprintf(macStr, sizeof(macStr), "%02X:%02X:%02X:%02X:%02X:%02X",
              mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);

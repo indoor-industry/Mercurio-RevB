@@ -27,6 +27,7 @@ namespace {
 }
 
 void testBacklight() {
+    Serial.println("--- Backlight ---");
     tft.fillScreen(COL_BG);
     Display::drawHeader("Backlight");
     tft.setFreeFont(&FreeSans9pt7b);

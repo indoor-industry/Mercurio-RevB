@@ -12,10 +12,11 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/freenove_esp32_s3_wroom/firmware.elf",
-            "projectEnvName": "freenove_esp32_s3_wroom",
-            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp32s3/bin",
+            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/mercurio_v1/firmware.elf",
+            "projectEnvName": "mercurio_v1",
+            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp-elf/bin",
             "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mario/.platformio/platforms/espressif32/misc/svd/esp32s3.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -25,19 +26,21 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/freenove_esp32_s3_wroom/firmware.elf",
-            "projectEnvName": "freenove_esp32_s3_wroom",
-            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp32s3/bin",
-            "internalConsoleOptions": "openOnSessionStart"
+            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/mercurio_v1/firmware.elf",
+            "projectEnvName": "mercurio_v1",
+            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp-elf/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mario/.platformio/platforms/espressif32/misc/svd/esp32s3.svd"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/freenove_esp32_s3_wroom/firmware.elf",
-            "projectEnvName": "freenove_esp32_s3_wroom",
-            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp32s3/bin",
+            "executable": "/home/mario/Documents/LoRa-device-RevB/test_firmware/.pio/build/mercurio_v1/firmware.elf",
+            "projectEnvName": "mercurio_v1",
+            "toolchainBinDir": "/home/mario/.platformio/packages/toolchain-xtensa-esp-elf/bin",
             "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mario/.platformio/platforms/espressif32/misc/svd/esp32s3.svd",
             "loadMode": "manual"
         }
     ]

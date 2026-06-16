@@ -56,6 +56,7 @@ void testWifiBle() {
                 break;
             }
             if (inBtn(scanBtn, tx, ty)) {
+                Serial.println("--- WiFi / BLE Scan ---");
                 tft.fillRect(0, listTop, SCREEN_W, listBottom - listTop, COL_BG);
                 int y = listTop;
 
@@ -65,6 +66,7 @@ void testWifiBle() {
                 int n = WiFi.scanNetworks();
                 tft.fillRect(0, y, SCREEN_W, 20, COL_BG);
                 y = Display::infoLine(y, "WiFi APs:", String(n), COL_FG);
+                Serial.printf("WiFi APs found: %d\n", n);
 
                 int wifiShown = (n > 0 && n < 4) ? n : (n >= 4 ? 4 : 0);
                 for (int i = 0; i < wifiShown; i++) {
@@ -72,6 +74,7 @@ void testWifiBle() {
                     tft.setTextColor(COL_FG, COL_BG);
                     tft.drawString(line, 16, y);
                     y += 18;
+                    Serial.printf("  [%d] %s  RSSI: %d dBm\n", i, WiFi.SSID(i).c_str(), WiFi.RSSI(i));
                 }
                 WiFi.scanDelete();
                 WiFi.mode(WIFI_OFF);
@@ -88,6 +91,7 @@ void testWifiBle() {
                 tft.fillRect(0, y, SCREEN_W, 20, COL_BG);
                 int bn = results.getCount();
                 y = Display::infoLine(y, "BLE devices:", String(bn), COL_FG);
+                Serial.printf("BLE devices found: %d\n", bn);
 
                 int bleShown = (bn > 0 && bn < 4) ? bn : (bn >= 4 ? 4 : 0);
                 for (int i = 0; i < bleShown; i++) {
@@ -100,6 +104,7 @@ void testWifiBle() {
                     tft.setTextColor(COL_FG, COL_BG);
                     tft.drawString(line, 16, y);
                     y += 18;
+                    Serial.printf("  [%d] %s  RSSI: %d dBm\n", i, name.c_str(), dev->getRSSI());
                 }
                 scan->clearResults();
                 NimBLEDevice::deinit(true);

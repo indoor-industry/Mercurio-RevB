@@ -37,6 +37,8 @@ void testBattery() {
     tft.drawString("STAT1:", 8, yStat1);
     tft.drawString("STAT2:", 8, yStat2);
 
+    Serial.println("--- Battery ---");
+    unsigned long lastSerialMs = 0;
     while (!Menu::checkBack()) {
         uint32_t mv = analogReadMilliVolts(PIN_BAT_ADC);
         float vbat = (mv / 1000.0f) * BAT_ADC_DIVIDER;
@@ -61,6 +63,12 @@ void testBattery() {
         drawValue(yStatus, status, statColor);
         drawValue(yStat1, stat1 ? "1 (ok)" : "0 (fault)", COL_FG);
         drawValue(yStat2, stat2 ? "1 (done)" : "0 (charging)", COL_FG);
+
+        if (millis() - lastSerialMs >= 2000) {
+            lastSerialMs = millis();
+            Serial.printf("Vbat: %.2f V  Status: %s  STAT1: %d  STAT2: %d\n",
+                          vbat, status, stat1, stat2);
+        }
 
         delay(250);
     }

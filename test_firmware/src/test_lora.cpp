@@ -54,6 +54,12 @@ void testLora() {
                              LORA_CODING_RATE, LORA_SYNC_WORD, LORA_TX_POWER_DBM,
                              LORA_PREAMBLE_LEN);
     bool ok = (state == RADIOLIB_ERR_NONE);
+    Serial.println("--- LoRa SX1262 ---");
+    if (ok) {
+        Serial.printf("Init: OK  Freq: %.1f MHz\n", LORA_FREQ_MHZ);
+    } else {
+        Serial.printf("Init: FAIL (err %d)\n", state);
+    }
 
     int y = HDR_H + 8;
     y = Display::infoLine(y, "Init:", ok ? "OK" : ("FAIL (" + String(state) + ")"), ok ? COL_OK : COL_ERR);
@@ -74,6 +80,7 @@ void testLora() {
         radio.startReceive();
     }
 
+    unsigned long lastLoraSerialMs = 0;
     while (true) {
         Volume::poll();
 
@@ -84,6 +91,10 @@ void testLora() {
             tft.drawString("RSSI:", 8, rssiY);
             tft.setTextColor(COL_FG, COL_BG);
             tft.drawString(String(rssi, 1) + " dBm", 90, rssiY);
+            if (millis() - lastLoraSerialMs >= 2000) {
+                lastLoraSerialMs = millis();
+                Serial.printf("RSSI: %.1f dBm\n", rssi);
+            }
         }
 
         uint16_t gpio = mcp.readGPIO();
@@ -105,8 +116,10 @@ void testLora() {
                 int st = radio.transmit("Hello from LoRa-device RevB!");
                 if (st == RADIOLIB_ERR_NONE) {
                     drawResult(resultY, "TX OK", COL_OK);
+                    Serial.println("TX OK");
                 } else {
                     drawResult(resultY, "TX FAIL (" + String(st) + ")", COL_ERR);
+                    Serial.printf("TX FAIL (err %d)\n", st);
                 }
                 radio.startReceive();
             } else if (ok && inBtn(cwBtn, tx, ty)) {

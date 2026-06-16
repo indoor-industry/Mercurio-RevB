@@ -55,11 +55,24 @@ void testExpander() {
     const int rowH = 24;
     const int top = HDR_H + 6;
 
+    Serial.println("--- I/O Expander ---");
+    uint16_t lastGpio = 0xFFFF;
     while (!Menu::checkBack()) {
         uint16_t gpio = mcp.readGPIO();
         for (int i = 0; i < 8; i++) {
             drawRow(0, top + i * rowH, colW, PORT_A[i], gpio);
             drawRow(colW, top + i * rowH, colW, PORT_B[i], gpio);
+        }
+        if (gpio != lastGpio) {
+            Serial.printf("GPIO: 0x%04X", gpio);
+            for (int i = 0; i < 8; i++) {
+                Serial.printf("  %s=%d", PORT_A[i].name, (gpio >> PORT_A[i].bit) & 1);
+            }
+            for (int i = 0; i < 8; i++) {
+                Serial.printf("  %s=%d", PORT_B[i].name, (gpio >> PORT_B[i].bit) & 1);
+            }
+            Serial.println();
+            lastGpio = gpio;
         }
         delay(150);
     }

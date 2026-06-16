@@ -28,6 +28,7 @@ void testTouch() {
     tft.drawString("to force recalibration", SCREEN_W / 2, canvasBottom + 24);
     tft.setTextDatum(TL_DATUM);
 
+    Serial.println("--- Touch Test ---");
     int16_t lastX = -1, lastY = -1;
 
     while (!Menu::checkBack()) {
@@ -40,6 +41,7 @@ void testTouch() {
                 tft.fillRect(0, infoY, SCREEN_W, 18, COL_BG);
                 tft.setTextColor(COL_FG, COL_BG);
                 tft.drawString("X: " + String(x) + "   Y: " + String(y), 8, infoY);
+                Serial.printf("Touch: X=%d  Y=%d\n", x, y);
                 lastX = x;
                 lastY = y;
             }
